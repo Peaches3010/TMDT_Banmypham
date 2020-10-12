@@ -1,0 +1,704 @@
+﻿
+@{
+    ViewData["Title"] = "ThanhPhan";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jss1 jss3">
+    <nav class="jss4 jss5 navbar navbar-expand-md navbar-light">
+        <!--Thanh bar-->
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="pic/logo.png"
+                     alt="Logo" class="lazyloaded" height="35px">
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-controls="basic-navbar-nav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+                <div class="ml-auto navbar-nav">
+                    <div class="jss7 nav-item">
+                        <a href="#" class="jss8">
+                            Trang chủ
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </div>
+                    <div class="jss7 nav-item">
+                        <a href="#" class="jss8">
+                            Sản phẩm
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </div>
+                    <div class="jss7 nav-item">
+                        <a href="#" class="jss8">
+                            Bài viết
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </div>
+                    <div class="jss7 jss9 nav-item">
+                        <a href="#" class="jss8">
+                            Thành phần
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jss13">
+        <!--Hình ảnh header-->
+        <img src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiIxN2JiODE4NzA4ZGY0YWY0OWZkYzY2ZTg3YWVlNjQ5MS5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9"
+             alt="Header image" class="jss14">
+    </div>
+
+    <div class="container">
+        <div class="row jss2">
+            <div class="col-sm-8 col-md-8">
+                <div class="jss19">
+                    <!--Map-->
+                    <span class="jss15">
+                        <a href="/">Trang chủ</a>
+                    </span>
+                    <span class="jss17">▶</span>
+                    <span class="jss18"></span>
+                    <span class="jss15 jss16">Thành phần</span>
+                </div>
+
+                <div class="jss20 row">
+                    <div class="jss21 col-12">
+                        <!--Mô tả-->
+                        <h3>Hướng dẫn sử dụng</h3>
+                        <ul>
+                            <li>Nhập tên từng chất bạn muốn tra</li>
+                            <li>Mỗi chất sẽ được highlight khác nhau </li>
+                            <li>
+                                Để phân tích các chất, bạn có thể nhập các ký tự
+                                <b class="jss22">
+                                    <span>;</span>
+                                    <span>|</span>
+                                    <span>_</span>
+                                </b>
+                                .
+                                <br>
+                                Các ký tự này sẽ không xuất hiện trên màn hình
+                            </li>
+                            <li>
+                                Bạn cũng có thể copy paste một danh sách chất ở một trang mạng nào đó và app sẽ thử dự đoán các chất trong
+                                danh sách đó. Bạn vẫn có thể sửa lại nếu app dự đoán sai
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12">
+                        <!--Bảng tra*-->
+                        <div class="jss23">
+                            <div class="jss24">
+                                <div class="jss25 jss26 jss27">
+                                    <div class="jss25 jss32">
+                                        <span class="jss29"></span>
+                                    </div>
+                                </div>
+                                <textarea class="jss25 jss27 jss28" placeholder="Tìm kiếm thành phẩn"
+                                          autofocus spellcheck="false"></textarea>
+                            </div>
+                            <div class="jss30">
+                                <button class="jss31">
+                                    <img alt="search" src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png">
+                                </button>
+                                <button class="jss31">
+                                    <img alt="search" src="https://cdn.onlinewebfonts.com/svg/img_324119.png">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jss33">
+                    <ul class="jss35 pagination">
+                        <li class="page-item disabled">
+                            <span class="page-link" disabled="">
+                                <span aria-hidden="true">«</span>
+                                <span class="sr-only">First</span>
+                            </span>
+                        </li>
+                        <li class="page-item disabled">
+                            <span class="page-link" disabled="">
+                                <span aria-hidden="true">‹</span>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </li>
+                        <li class="page-item active">
+                            <span class="page-link">
+                                1
+                                <span class="sr-only">(current)</span>
+                            </span>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" role="button" href="#">
+                                2
+                            </a>
+                        </li>
+                        <li class="page-item disabled">
+                            <span class="page-link" disabled="">
+                                <span aria-hidden="true">...</span>
+                                <span class="sr-only">More</span>
+                            </span>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" role="button" href="#">
+                                243
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" role="button" href="#">
+                                <span aria-hidden="true">›</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" role="button" href="#">
+                                <span aria-hidden="true">»</span>
+                                <span class="sr-only">Last</span>
+                            </a>
+                        </li>
+
+                        <li class="page-item">
+                            <span class="page-link" role="button" href="#">
+                                <span aria-hidden="true">»</span>
+                                <span class="sr-only">Last</span>
+                            </span>
+                        </li>
+                        <!-- <div class="jss36 input-group"> -->
+                        <!-- <input class="form-control" value="1"> -->
+                        <!-- <div class="input-group-append"> -->
+                        <!-- <button type="button" class="btn btn-outline-secondary">Go</button> -->
+                        <!-- </div> -->
+                        <!-- </div> -->
+                    </ul>
+                    <div class="jss34">Kết quả 1-12 trên tổng số 2907</div>
+
+                    <div class="jss57 row">
+                        <!--Các chất từ trên xuống-->
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-3 col-12">
+                                    <div class="jss67 jss62 jss63">
+                                        <span class="jss66">1</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9 col-12">
+                                    <h4 class="jss58">Alpha-Metyl Ionone</h4>
+                                    <div class="jss59"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p>Hương liệu gây kích ứng mạnh, có nguy cơ gây ra kích ứng da dù ở các nồng độ...</p>
+                            <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="jss57 row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-3 col-12">
+                                    <div class="jss67 jss62 jss65">
+                                        <span class="jss66">4</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9 col-12">
+                                    <h4 class="jss58">Alteromonas Ferment Extract</h4>
+                                    <div class="jss59">
+                                        <span class="jss71 jss72 badge badge-pill">Chiết xuất thực vật</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p>Nó có tính ngậm nước và được xem là một thành phần làm dịu da hiệu quả</p>
+                            <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="jss57 row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-3 col-12">
+                                    <div class="jss67 jss62 jss65">
+                                        <span class="jss66">5</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9 col-12">
+                                    <h4 class="jss58">Althea Officinalis</h4>
+                                    <div class="jss59">
+                                        <span class="jss71 jss72 badge badge-pill">Chất làm dịu da</span>
+                                        <span class="jss71 jss72 badge badge-pill">Chiết xuất thực vật</span>
+                                    </div>
+                                    <div>
+                                        Tên gọi khác:
+                                        <ul>
+                                            <li>Mashmallow Root</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p>Althea officinalis, hoặc rễ Mashmallow, có chứa nhiều polysaccharides tinh bột và chất nhầy, tạo thành lớp gel bảo...</p>
+                            <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="jss57 row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-3 col-12">
+                                    <div class="jss67 jss62 jss65">
+                                        <span class="jss66">4</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9 col-12">
+                                    <h4 class="jss58">Aluminium</h4>
+                                    <div class="jss59">
+                                        <span class="jss71 jss72 badge badge-pill">Chưa phân loại</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p>Sử dụng an toàn trong mỹ phẩm, thuốc men và thiết bị y tế</p>
+                            <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="jss57 row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-3 col-12">
+                                    <div class="jss67 jss62 jss65">
+                                        <span class="jss66">4</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9 col-12">
+                                    <h4 class="jss58">Aluminium/Mangesium Stearate</h4>
+                                    <div class="jss59">
+                                        <span class="jss71 jss72 badge badge-pill">Chưa phân loại</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p>Sử dụng an toàn trong mỹ phẩm, thuốc men và thiết bị y tế</p>
+                            <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="jss57 row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-3 col-12">
+                                    <div class="jss67 jss62 jss65">
+                                        <span class="jss66">4</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9 col-12">
+                                    <h4 class="jss58">Aluminum</h4>
+                                    <div class="jss59">
+                                        <span class="jss71 jss72 badge badge-pill">Chưa phân loại</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p>Sử dụng an toàn trong mỹ phẩm, thuốc men và thiết bị y tế</p>
+                            <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="jss57 row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-3 col-12">
+                                    <div class="jss67 jss62 jss64">
+                                        <span class="jss66">3</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9 col-12">
+                                    <h4 class="jss58">Aluminum Chloride</h4>
+                                    <div class="jss59">
+                                        <span class="jss71 jss72 badge badge-pill">Hấp thụ dầu</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p>Muối kiềm được sử dụng để cân bằng độ pH trong các sản phẩm chăm sóc da; sử dụng...</p>
+                            <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="jss57 row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-3 col-12">
+                                    <div class="jss67 jss62 jss65">
+                                        <span class="jss66">4</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9 col-12">
+                                    <h4 class="jss58">Aluminum Dimyristate</h4>
+                                    <div class="jss59">
+                                        <span class="jss71 jss72 badge badge-pill">Chất tạo màng/ giữ kết cấu sản phẩm</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p>Là một axit béo tự nhiên xuất hiện trong một số loại thực phẩm. Axit Myristic tinh khiết xuất...</p>
+                            <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="jss57 row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-3 col-12">
+                                    <div class="jss67 jss62 jss65">
+                                        <span class="jss66">4</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9 col-12">
+                                    <h4 class="jss58">Aluminum Distearate</h4>
+                                    <div class="jss59">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p>Là một axit béo tự nhiên xuất hiện trong một số loại thực phẩm. Axit Myristic tinh khiết xuất...</p>
+                            <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="jss57 row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-3 col-12">
+                                    <div class="jss67 jss62 jss65">
+                                        <span class="jss66">4</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9 col-12">
+                                    <h4 class="jss58">Aluminum Hydroxide</h4>
+                                    <div class="jss59">
+                                        <span class="jss71 jss72 badge badge-pill">Tạo kết cấu sản phẩm</span>
+                                        <span class="jss71 jss72 badge badge-pill">Hấp thụ dầu</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p>Có chức năng như một chất cản quang, chất tạo màu và chất hấp thụ, hoàn toàn an toàn...</p>
+                            <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="jss57 row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-3 col-12">
+                                    <div class="jss67 jss62 jss65">
+                                        <span class="jss66">4</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9 col-12">
+                                    <h4 class="jss58">Amethst Extract</h4>
+                                    <div class="jss59">
+                                        <span class="jss71 jss72 badge badge-pill">Chất dưỡng da</span>
+                                        <span class="jss71 jss72 badge badge-pill">Chất hồi phục da</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p>Thạch anh tím là một tinh thể mà nhiều người biết đến vẻ đẹp trang trí và sự hiện...</p>
+                            <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="jss57 row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-3 col-12">
+                                    <div class="jss67 jss62 jss65">
+                                        <span class="jss66">4</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9 col-12">
+                                    <h4 class="jss58">Aminopropyl Ascorbyl Phosphate</h4>
+                                    <div class="jss59">
+                                        <span class="jss71 jss72 badge badge-pill">Chất tạo màng/giữ kết cấu sản phẩm</span>
+                                        <span class="jss71 jss72 badge badge-pill">Chất dưỡng da</span>
+                                        <span class="jss71 jss72 badge badge-pill">Chất hồi phục da</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p>Dimethinoe, còn được gọi là polydimethylsiloxan, là một polymer dựa trên silicon là một phần tử tổng hợp nhân...</p>
+                            <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="jss57 row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-sm-3 col-12">
+                                    <div class="jss67 jss62 jss65">
+                                        <span class="jss66">4</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9 col-12">
+                                    <h4 class="jss58">Aminopropyl Ascorbyl Phosphate</h4>
+                                    <div class="jss59">
+                                        <span class="jss71 jss72 badge badge-pill">Chất tạo màng/giữ kết cấu sản phẩm</span>
+                                        <span class="jss71 jss72 badge badge-pill">Chất dưỡng da</span>
+                                        <span class="jss71 jss72 badge badge-pill">Chất hồi phục da</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <p>Dimethinoe, còn được gọi là polydimethylsiloxan, là một polymer dựa trên silicon là một phần tử tổng hợp nhân...</p>
+                            <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <ul class="jss35 pagination">
+                        <li class="page-item disabled">
+                            <span class="page-link" disabled="">
+                                <span aria-hidden="true">«</span>
+                                <span class="sr-only">First</span>
+                            </span>
+                        </li>
+                        <li class="page-item disabled">
+                            <span class="page-link" disabled="">
+                                <span aria-hidden="true">‹</span>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </li>
+                        <li class="page-item active">
+                            <span class="page-link">
+                                1
+                                <span class="sr-only">(current)</span>
+                            </span>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" role="button" href="#">
+                                2
+                            </a>
+                        </li>
+                        <li class="page-item disabled">
+                            <span class="page-link" disabled="">
+                                <span aria-hidden="true">...</span>
+                                <span class="sr-only">More</span>
+                            </span>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" role="button" href="#">
+                                243
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" role="button" href="#">
+                                <span aria-hidden="true">›</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" role="button" href="#">
+                                <span aria-hidden="true">»</span>
+                                <span class="sr-only">Last</span>
+                            </a>
+                        </li>
+
+                        <li class="page-item">
+                            <span class="page-link" role="button" href="#">
+                                <span aria-hidden="true">»</span>
+                                <span class="sr-only">Last</span>
+                            </span>
+                        </li>
+                        <!-- <div class="jss36 input-group"> -->
+                        <!-- <input class="form-control" value="1"> -->
+                        <!-- <div class="input-group-append"> -->
+                        <!-- <button type="button" class="btn btn-outline-secondary">Go</button> -->
+                        <!-- </div> -->
+                        <!-- </div> -->
+                    </ul>
+                    <div class="jss34">Kết quả 1-12 trên tổng số 2907</div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 offset-md-1">
+                <div class="jss47">
+                    <h5 class="jss46"><b>Sản phẩm nổi bật</b></h5>
+                    <div>
+                        <a class="jss53" href="/">
+                            <div class="jss48 card">
+                                <div class="jss49 card-header">
+                                    <img alt="Biossance Squalane oil 100%" class="jss76"
+                                         src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiIzZDBiMmVmYWIyZDk0MGViYTllYzM4NzY1NmIyYzhhYy5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9">
+                                </div>
+                                <div class="card-body">
+                                    <div class="jss50 card-title h5">
+                                        Biossance Squalane oil 100%<br>
+                                        <span class="jss51 badge badge-pill">
+                                            DẦU DƯỠNG
+                                        </span>
+                                    </div>
+                                    <p class="card-text">600.000<sup>đ</sup></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="jss53" href="/">
+                            <div class="jss48 card">
+                                <div class="jss49 card-header">
+                                    <img alt="Differin gel (Adapalene 0.1%)" class="jss76"
+                                         src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/differin_gel_679f7308a4.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <div class="jss50 card-title h5">
+                                        Differin gel (Adapalene 0.1%)<br>
+                                        <span class="jss51 badge badge-pill">
+                                            RETINOID
+                                        </span>
+                                    </div>
+                                    <p class="card-text">350.000<sup>đ</sup></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="jss53" href="/">
+                            <div class="jss48 card">
+                                <div class="jss49 card-header">
+                                    <img alt="Treatment (2.5% Benzoyl Peroxide)" class="jss76"
+                                         src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiIyZDUxZmI2M2MzNTQ0ZmMxOTY5OThjOTAxNzUyOGI0YS5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9">
+                                </div>
+                                <div class="card-body">
+                                    <div class="jss50 card-title h5">
+                                        Treatment (2.5% Benzoyl)<br>
+                                        <span class="jss51 badge badge-pill">
+                                            CHẤM MỤN
+                                        </span>
+                                    </div>
+                                    <p class="card-text">650.000<sup>đ</sup></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="jss53" href="/">
+                            <div class="jss48 card">
+                                <div class="jss49 card-header">
+                                    <img alt="Advanced Snail 96 Mucin" class="jss76"
+                                         src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiJhY2M3N2E1Y2E4ZDA0YmRhYjg4MDM4N2Q0MTZhYjZlNi5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9">
+
+                                </div>
+                                <div class="card-body">
+                                    <div class="jss50 card-title h5">
+                                        Advanced Snail 96 Mucin<br>
+                                        <span class="jss51 badge badge-pill">
+                                            ESSENCE
+                                        </span>
+                                    </div>
+                                    <p class="card-text">300.000<sup>đ</sup></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="jss53" href="/">
+                            <div class="jss48 card">
+                                <div class="jss49 card-header">
+                                    <img alt="Hydrating Facial Cleanser" class="jss76"
+                                         src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/Cera_Ve_Hydrating_Facial_Cleanser_Callmeduy_cb2acb2337.jpeg">
+
+                                </div>
+                                <div class="card-body">
+                                    <div class="jss50 card-title h5">
+                                        Hydrating Facial Cleanser<br>
+                                        <span class="jss51 badge badge-pill">
+                                            SỮA RỬA MẶT
+                                        </span>
+                                    </div>
+                                    <p class="card-text">370.000<sup>đ</sup></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="jss53" href="/">
+                            <div class="jss48 card">
+                                <div class="jss49 card-header">
+                                    <img alt="SKIN LONG-WEAR FLUID 20" class="jss76"
+                                         src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiJlYjlkZjhkNjE2NTQ0ZjgzODZhYTNkZDM4NjllYzU4Ni5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9">
+
+                                </div>
+                                <div class="card-body">
+                                    <div class="jss50 card-title h5">
+                                        Skin Long-Wear Fluid SPF 20<br>
+                                        <span class="jss51 badge badge-pill">
+                                            KEM NỀN
+                                        </span>
+                                    </div>
+                                    <p class="card-text">1.200.000<sup>đ</sup></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" id="goup-btn" class="jss77">
+        <img alt="go up" class=" ls-is-cached lazyloaded" data-="" src="https://callmeduy.com/assets/img/arrow_up.png" width="40px">
+    </a>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-5 footer-header">
+
+                        <h3><strong>BeInBeauty</strong></h3>
+
+                        <div class="footer-content">
+                            <p>Tất cả các sản phẩm mới nhất giảm giá và ưu đãi có hạn - theo dõi hộp thư đến của bạn.</p>
+                            <form>
+                                <input type="email" placeholder="Nhập email của bạn vào đây" style="width: 80%;">
+                                <button type="submit" id="submit">
+                                </button>
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-5 footer-header">
+                        <h4 style="text-align: center;"><strong>Theo dõi chúng tôi</strong></h4>
+
+                        <div class="footer-content" style="text-align: center;">
+                            <i class="fab fa-facebook icon"><a href="#"></a></i>
+                            <i class="fab fa-twitter icon"><a href="#"></a></i>
+                            <i class="fab fa-instagram icon"><a href="#"></a></i>
+                            <i class="fab fa-youtube icon"><a href="#"></a></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3 footer-content">
+                            <h5><a href="#">Về chúng tôi</a></h5>
+                        </div>
+                        <div class="col-md-3 footer-content">
+                            <h5><a href="#">Liên hệ</a></h5>
+                        </div>
+                        <div class="col-md-3 footer-content">
+                            <h5><a href="#">Mua & Đổi trả</a></h5>
+                        </div>
+                        <div class="col-md-3 footer-content">
+                            <h5><a href="#">Câu hỏi thường gặp</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="text-align: center;">
+                <h5>Copyright © 2020 UEH</h5>
+            </div>
+        </div>
+    </footer>
+</div>
+

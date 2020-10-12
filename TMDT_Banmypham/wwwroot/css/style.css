@@ -1,0 +1,452 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white !important;
+}
+.jss1 {
+    margin-right: 50px;
+}
+.sr-only
+{
+    color: #00BFFF;
+}
+.nav-link span {
+    color: #00BFFF;
+}
+.nav-link{
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-right: 80px;
+    font-weight: bolder;
+}
+.dropdown-menu{
+    background: #FFFAF0;
+}
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
+.jss8{
+    color: black;
+    font-weight: bolder;
+}
+.carousel-caption button {
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+}
+.jss28{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.jss29 {
+    display: inline;
+    position: absolute;
+}
+.jss32{
+    width: 100%;
+}
+.jss23 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
+    align-items: center;
+    justify-content: center;
+}
+.jss28{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.jss29 {
+    width: 30%;
+    margin: 16px;
+    display: flex;
+    position: relative;
+}
+.anh1{
+    padding-top:40px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.anh1:hover{
+opacity: 0.5;
+} 
+.anh2:hover{
+    opacity: 0.5;
+}
+.anh2{
+    padding-top:40px ;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.anh3{
+    padding-top: 40px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.jss70 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 10%;
+}
+.jss71 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.jss72 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 10%;
+}
+.jss73 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.jss74 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 10%;
+}
+.jss75 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.jss33 {
+    top: 50%;
+    left: 50%;
+    color: white;
+    opacity: 0;
+    z-index: 11;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: 300ms;
+}
+.row-jss1 > hr {
+ width: 50%;
+ color: royalblue;
+ border: 2px solid royalblue;
+}
+.jss37 {
+    width: 100%;
+}
+.jss36 {
+    text-align: center;
+}
+hr{
+    background-color: lightblue;
+    border: 3px solid lightblue;
+    width: 50%;
+}
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.jss63 {
+    color: initial;
+    text-decoration: none;
+}
+.jss58 {
+    width: 100%;
+    transition: 300ms;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+.jss59 {
+    width: 100%;
+    background: white;
+}
+.jss96 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 140%;
+}
+.jss97 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.jss60 {
+    height: 100px;
+    margin: 8px 0px;
+}
+.jss61 {
+    padding: 8px;
+    margin-top: 8px;
+    font-weight: 400;
+    background-color: #2EADED;
+}
+sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+.jss23 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.8s;
+}
+.jss98 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 140%;
+}
+.jss99 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}.jss100 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 140%;
+}
+.jss101 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}.jss102 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 140%;
+}
+.jss103 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}.jss104 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 140%;
+}
+.jss105 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}.jss106 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 140%;
+}
+.jss107 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.jss94 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 140%;
+}
+.jss95 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.jss38 {
+    min-width: 300px;
+}
+.percent.deal {
+    background-image: url(https://frontend.tikicdn.com/_desktop-next/static/img/icons/product/deal-tag@2x.png);
+}
+.percent.deal {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 1px 0px 0px;
+    padding-bottom: 4px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    width: 80px;
+    height: 72px;
+}
+.jss2 {
+        margin-top: 40px !important;
+}
+.jss44 {
+    text-align: center;
+}
+.jss45 {
+    height: 520px;
+    padding: 12px;
+    position: relative;
+    text-align: left;
+    transition: 0.8s;
+    border-radius: 8px;
+}
+.jss46 {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.jss48 {
+    color: white;
+    text-decoration: none;
+}
+.jss50 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: 300ms;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.jss51 {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.jss88 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 56.25%;
+}
+.jss89 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.jss90 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 56.25%;
+}
+.jss91 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}.jss92 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 56.25%;
+}
+.jss93 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.jss54 {
+    text-align: center;
+}
+.jss52 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 380px;
+}
+.jss53 {
+    width: 15%;
+    margin: 8px;
+    display: flex;
+}
+.jss76 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 68.75%;
+}
+.jss77 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.jss78 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 68.75%;
+}
+.jss79 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.jss80{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 68.75%;
+}
+.jss81{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}.jss82{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 68.75%;
+}
+.jss83 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}.jss84{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 68.75%;
+}
+.jss85 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}.jss86{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 68.75%;
+}
+.jss87 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 68.75%;
+}
