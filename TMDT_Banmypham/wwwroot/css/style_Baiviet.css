@@ -15,7 +15,7 @@ html {
   letter-spacing: 0.00938em;
 }
 .jss1 .blogpost-content h1 {
-  font-size: NaN;
+
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
   line-height: 1.167;
@@ -29,7 +29,7 @@ html {
   letter-spacing: -0.01562em;
 }
 .jss1 .blogpost-content h2 {
-  font-size: NaN;
+
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
   line-height: 1.2;
@@ -43,7 +43,7 @@ html {
   letter-spacing: -0.00833em;
 }
 .jss1 .blogpost-content h3 {
-  font-size: NaN;
+
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   line-height: 1.167;
@@ -57,7 +57,6 @@ html {
   letter-spacing: 0em;
 }
 .jss1 .blogpost-content h4 {
-  font-size: NaN;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   line-height: 1.235;
@@ -71,7 +70,7 @@ html {
   letter-spacing: 0.00735em;
 }
 .jss1 .blogpost-content h5 {
-  font-size: NaN;
+
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   line-height: 1.334;
@@ -85,7 +84,6 @@ html {
   letter-spacing: 0em;
 }
 .jss1 .blogpost-content h6 {
-  font-size: NaN;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 500;
   line-height: 1.6;
@@ -604,11 +602,7 @@ html {
 }
 
 /*footer*/
-#footer {
-    background-color: #f2f2f2;
-    clear: both;
-    width: 100%;
-}
+
 
 .footer-header {
     padding: 40px 10px;
@@ -682,3 +676,4 @@ form #submit {
         height: 40px;
     }
 }
+

@@ -15,7 +15,6 @@ html {
   letter-spacing: 0.00938em;
 }
 .jss1 .blogpost-content h1 {
-  font-size: NaN;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
   line-height: 1.167;
@@ -690,11 +689,7 @@ html {
 }
 
 /*footer*/
-.footer {
-    background-color: #f2f2f2;
-    clear: both;
-    width: 100%;
-}
+
 
 .footer-header {
     padding: 40px 10px;
@@ -742,7 +737,7 @@ form #submit {
     background: rgba(0, 0, 0, .5);
     font-size: 35px;
     color: whitesmoke;
-    vertical-align: center;
+    vertical-align: central;
     display: flex;
     justify-content: center;
     align-items: center;
