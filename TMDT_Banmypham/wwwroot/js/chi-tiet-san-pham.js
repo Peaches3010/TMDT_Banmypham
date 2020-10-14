@@ -147,14 +147,12 @@ $(document).ready(function() {
             document.body.classList.add('dark');
             document.querySelector('.jss44').classList.add('bgchange-color');
             document.querySelector('.footer').classList.add('change');
-            document.querySelector('.jss108').classList.add('change-text');
-            document.querySelector('.jss109').classList.add('change-text');
+            document.querySelector('.jss49').classList.add('bgchange-color-p');
         } else {
             document.body.classList.remove('dark');
             document.querySelector('.jss44').classList.remove('bgchange-color');  
             document.querySelector('.footer').classList.remove('change');
-            document.querySelector('.jss108').classList.remove('change-text');
-            document.querySelector('.jss109').classList.remove('change-text');
+            document.querySelector('.jss49').classList.remove('bgchange-color-p');
         }
     })
 });

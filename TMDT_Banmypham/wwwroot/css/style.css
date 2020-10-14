@@ -64,8 +64,7 @@ body {
     padding-top: 20px;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-   
+    object-fit: cover; 
     position: relative;
 }
 .jss29 {
@@ -78,26 +77,23 @@ body {
     transform: rotateZ(2deg);
 }
 .noi-dung-banner {
-    opacity: 0;
-    background-color: black;
     cursor: pointer;
     width: 100%;
     height: 100%;
     z-index: 10;
-    display: inherit;
 }
-.noi-dung-banner:hover {
-        opacity: 0.7;
+h4,h5{
+    text-align: center;
+    margin-top: 10px;
 }
-
-.jss108 {
+.jss108{
     padding-top: 5%;
     font-size: 25px;
     text-align: center;
     color: black;
 }
 
-.jss109 {
+.jss109{
     font-size: 20px;
     text-align: center;
     color: black;
@@ -347,12 +343,16 @@ sup {
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.5);
 }
-.jss51 {
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+.jss50:hover{
+        opacity: 1;
+
 }
+    .jss51 {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
 .jss88 {
     width: 100%;
     overflow: hidden;
@@ -399,72 +399,37 @@ sup {
     margin: 8px;
     display: flex;
 }
-.jss76 {
+.jss76, .jss78, .jss80, .jss82, .jss84, .jss86 {
     width: 100%;
     overflow: hidden;
     position: relative;
     padding-top: 68.75%;
 }
-.jss77 {
+.jss77, .jss79, .jss81, .jss83, .jss85, .jss87 {
     width: 100%;
     height: 100%;
     object-fit: contain;
-}
-.jss78 {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 68.75%;
-}
-.jss79 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-.jss80{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 68.75%;
-}
-.jss81{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}.jss82{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 68.75%;
-}
-.jss83 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}.jss84{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 68.75%;
-}
-.jss85 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}.jss86{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 68.75%;
-}
-.jss87 {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 68.75%;
 }
 
 .card-text:last-child{
     color: black !important;
 }
 
+.frame {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.justify{
+    margin: 0 !important;
+}
+
+.jss110 {
+    background-color: #B2AD3F !important;
+}

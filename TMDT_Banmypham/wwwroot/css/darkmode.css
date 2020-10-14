@@ -82,6 +82,6 @@ body.dark {
     background: linear-gradient(to left, #6D56FF, #18104B);
 }
 
-.change-text{
-    color: aliceblue;
+bgchange-color-p {
+    color: #B2AD3F !important; 
 }
