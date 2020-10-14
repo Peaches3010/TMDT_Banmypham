@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace eShopSolutionData.Entities
-{
+namespace TMDT_Banmypham.Models
+{ 
     public class Appconfig
     { 
-        [Key]
-        public int Key { get; set; }
-        [Required]
-        public string Values { get; set; }
+      
+        public string Key { get; set; }
+        
+        public string Value { get; set; }
     }
 }
