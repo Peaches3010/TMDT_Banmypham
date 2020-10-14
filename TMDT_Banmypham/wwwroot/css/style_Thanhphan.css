@@ -319,12 +319,14 @@ html {
 }
 
 /* image header */
-.jss13{
+.jss13 {
     width: 100%;
     height: 240px;
     margin: auto;
     margin-bottom: 80px;
+    margin-top: 20px !important;
 }
+
 .jss14{
     width: 100%;
     height: 100%;

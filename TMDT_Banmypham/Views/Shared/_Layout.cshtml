@@ -272,16 +272,17 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="nav navbar-nav nav-right">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+                            @Html.ActionLink("Trang chủ","Index", "Home", new { @class = "nav-link", @style= "color: #bdbdbd; transition: 0.2s!important; border - bottom: 3px solid #73EFF7 !important;" })
+                            <span class="sr-only">(current)</span>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sản phẩm</a>
+                            @Html.ActionLink("Sản phẩm", "SanPham", "Home", new { @class = "nav-link" })
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Bài viết</a>
+                            @Html.ActionLink("Bài viết", "BaiViet", "Home", new { @class = "nav-link" })
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Thành phần</a>
+                            @Html.ActionLink("Thành phần", "ThanhPhan", "Home", new { @class = "nav-link" })
                         </li>
                         <li class="dropdown nav-item account">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
