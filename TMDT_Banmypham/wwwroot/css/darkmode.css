@@ -77,3 +77,7 @@ body.dark {
     font-size: 18px;
     margin: 4px 3px 0 2px;
 }
+
+.bgchange-color {
+    background: linear-gradient(to left, #6D56FF, #18104B);
+}

@@ -37,9 +37,6 @@ a:link {
     width: 100%;
 }
 
-.nav-right {
-    padding-left: 25%;
-}
 
 .navbar-brand {
     width: 245px;
@@ -58,15 +55,6 @@ ul li.active .nav-link {
     z-index: 1;
 }
 
-.navbar-nav li {
-    font-size: 1.3em;
-    margin-left: 20px;
-}
-
-.glyphicon-user {
-    width: 26px;
-    height: 26px;
-}
 
 .account {
     margin-left: 5%;
@@ -106,7 +94,8 @@ nav.nav-change-color {
 
 .navbar-nav a {
     text-align: center;
-    color: #A2A1A1;
+    color: rgba(0,0,0,.5);
+    font-weight: bolder;
 }
 
 .navbar-toggler .icon-bar {
@@ -145,6 +134,7 @@ nav.nav-change-color {
     margin-left: 10px !important;
     width: 5% !important;
     height: 2px !important;
+    background-color: black !important;
 }
 
 .carousel-control-next,

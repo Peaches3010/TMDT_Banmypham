@@ -1,7 +1,6 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: white !important;
 }
 .jss1 {
     margin-right: 50px;
@@ -17,7 +16,6 @@ body {
     color: black;
     font-size: 16px;
     font-family: 'Roboto';
-    margin-right: 80px;
     font-weight: bolder;
 }
 .dropdown-menu{
@@ -175,6 +173,12 @@ hr{
     border-radius: 8px;
     margin-bottom: 24px;
 }
+.jss58:hover{
+    transform: scale(1.02);
+    box-shadow: 3px 2px #2EADED;
+
+}
+
 .jss59 {
     width: 100%;
     background: white;
@@ -193,12 +197,14 @@ hr{
 .jss60 {
     height: 100px;
     margin: 8px 0px;
+    color: black;
 }
 .jss61 {
     padding: 8px;
     margin-top: 8px;
     font-weight: 400;
     background-color: #2EADED;
+    color: white;
 }
 sup {
     position: relative;
@@ -379,7 +385,7 @@ sup {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-left: 380px;
+    margin-left: 50px;
 }
 .jss53 {
     width: 15%;
@@ -450,3 +456,8 @@ sup {
     position: relative;
     padding-top: 68.75%;
 }
+
+.card-text:last-child{
+    color: black !important;
+}
+

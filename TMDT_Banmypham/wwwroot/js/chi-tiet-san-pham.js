@@ -145,9 +145,11 @@ $(document).ready(function() {
     checkbox.addEventListener('change', function() {
         if (this.checked) {
             document.body.classList.add('dark');
+            document.querySelector('.jss44').classList.add('bgchange-color');
             document.querySelector('.footer').classList.add('change');
         } else {
             document.body.classList.remove('dark');
+            document.querySelector('.jss44').classList.remove('bgchange-color');  
             document.querySelector('.footer').classList.remove('change');
         }
     })
