@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using TMDT_Banmypham.Models;
 
-namespace eShopSolutionData.Entities
+namespace TMDT_Banmypham.Models
 {
    public class CatalogProduct
     {
-        [Key]
         public int IDCatalog { get; set; }
-        [Required]
         public string Name { get; set;}
+
+        public List<Product> Products { get; set; }
     }
 }

@@ -1,27 +1,29 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Metadata;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
+using TMDT_Banmypham.Models;
 
-namespace eShopSolutionData.Entities
+namespace TMDT_Banmypham.Models
 {
-    [Table("Sản Phẩm")]
-    public class Products
-    {
-        [DisplayName ("Mã Sản Phẩm") ]
-        [Key]
+    public class Product
+    { 
         public int IDProduct { get; set; }
-        [Required]
-        [Column(TypeName = "Money")]
+        public string Name { get; set; }
         public decimal Price { get; set; }
         public string Status { get; set; }
-        [Required]
+       
         public int Stock { get; set; }
         public int ViewCount { get; set; }
-        [Required]
         public DateTime Date { get; set; }
+
+
         public CatalogProduct Catalog { get; set; }
+        public List<ProductinCart> ProductinCart { get; set; }
+        public List<Ingredient> Ingredients { get; set; }
+        public Cart Carts { get; set; }
     }
 }
