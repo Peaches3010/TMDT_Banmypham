@@ -52,9 +52,6 @@ ul li.active .nav-link {
     z-index: 1;
 }
 
-.dropdown {
-    padding: .5rem 1rem;
-}
 
 .dropdown-menu {
     border: none;
@@ -88,6 +85,7 @@ nav.nav-change-color {
     text-align: center;
     color: rgba(0,0,0,.5);
     font-weight: bolder;
+    margin-left: 30px;
 }
 
 .navbar-toggler .icon-bar {
@@ -274,7 +272,7 @@ h1 {
 }
 
 .footer {
-    background-color: #D9D6EA;
+    background-color: #83A7B0;
     clear: both;
     width: 100%;
 }
@@ -379,9 +377,6 @@ form #submit {
     .navbar-nav a {
         text-align: right !important;
         width: 100%;
-    }
-    .dropdown {
-        padding: .5rem 0rem;
     }
     .dropdown-toggle {
         text-align: right !important;
