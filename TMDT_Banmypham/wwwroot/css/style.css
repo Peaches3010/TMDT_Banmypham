@@ -1,7 +1,6 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: white !important;
 }
 .jss1 {
     margin-right: 50px;
@@ -17,7 +16,6 @@ body {
     color: black;
     font-size: 16px;
     font-family: 'Roboto';
-    margin-right: 80px;
     font-weight: bolder;
 }
 .dropdown-menu{
@@ -42,10 +40,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-.jss29 {
-    display: inline;
-    position: absolute;
-}
+
 .jss32{
     width: 100%;
 }
@@ -63,39 +58,45 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top:20px;
 }
-.jss29 {
-    width: 30%;
-    margin: 16px;
-    display: flex;
+.anh {
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
     position: relative;
 }
-.anh1{
-    padding-top:40px;
-    padding-right: 20px;
+.jss29 {
+
+    position: relative;
+    transition: .5s;
+}
+.jss29:hover {
+    transition: .5s;
+    transform: rotateZ(2deg);
+}
+.noi-dung-banner {
+    cursor: pointer;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    z-index: 10;
 }
-.anh1:hover{
-opacity: 0.5;
-} 
-.anh2:hover{
-    opacity: 0.5;
+h4,h5{
+    text-align: center;
+    margin-top: 10px;
 }
-.anh2{
-    padding-top:40px ;
-    padding-right: 20px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.jss108{
+    padding-top: 5%;
+    font-size: 25px;
+    text-align: center;
+    color: black;
 }
-.anh3{
-    padding-top: 40px;
-    padding-right: 20px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+.jss109{
+    font-size: 20px;
+    text-align: center;
+    color: black;
 }
 .jss70 {
     width: 100%;
@@ -175,6 +176,12 @@ hr{
     border-radius: 8px;
     margin-bottom: 24px;
 }
+.jss58:hover{
+    transform: scale(1.02);
+    box-shadow: 3px 2px #2EADED;
+
+}
+
 .jss59 {
     width: 100%;
     background: white;
@@ -193,12 +200,14 @@ hr{
 .jss60 {
     height: 100px;
     margin: 8px 0px;
+    color: black;
 }
 .jss61 {
     padding: 8px;
     margin-top: 8px;
     font-weight: 400;
     background-color: #2EADED;
+    color: white;
 }
 sup {
     position: relative;
@@ -334,12 +343,16 @@ sup {
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.5);
 }
-.jss51 {
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+.jss50:hover{
+        opacity: 1;
+
 }
+    .jss51 {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
 .jss88 {
     width: 100%;
     overflow: hidden;
@@ -379,74 +392,44 @@ sup {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-left: 380px;
+    margin-left: 50px;
 }
 .jss53 {
     width: 15%;
     margin: 8px;
     display: flex;
 }
-.jss76 {
+.jss76, .jss78, .jss80, .jss82, .jss84, .jss86 {
     width: 100%;
     overflow: hidden;
     position: relative;
     padding-top: 68.75%;
 }
-.jss77 {
+.jss77, .jss79, .jss81, .jss83, .jss85, .jss87 {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
-.jss78 {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 68.75%;
+
+.card-text:last-child{
+    color: black !important;
 }
-.jss79 {
+
+.frame {
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    transition: 0.8s;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
 }
-.jss80{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 68.75%;
+
+.justify{
+    margin: 0 !important;
 }
-.jss81{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}.jss82{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 68.75%;
-}
-.jss83 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}.jss84{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 68.75%;
-}
-.jss85 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}.jss86{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 68.75%;
-}
-.jss87 {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 68.75%;
+
+.jss110 {
+    background-color: #B2AD3F !important;
 }

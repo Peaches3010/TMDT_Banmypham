@@ -4,7 +4,8 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    <link href="~/css/style.css" rel="stylesheet" />
+
+
     <!--Jquery swiper-slide-->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -12,11 +13,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BeainBeauty</title>
     <!-- My CSS-->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="~/css/style_Baiviet.css" rel="stylesheet" /><!--NGHI thêm-->
+    <link href="~/css/style_Sanpham.css" rel="stylesheet" /><!--NGHI thêm-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../package/swiper-bundle.min.css">
     <link rel="stylesheet" href="swiper.css">
+    <link rel="stylesheet" href="~/css/chi-tiet-san-pham.css" />
+    <link rel="stylesheet" href="~/css/dang ky.css" />
+    <link rel="stylesheet" href="~/css/dang nhap.css" />
+    <link rel="stylesheet" href="~/css/darkmode.css" />
+    
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -26,6 +33,10 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
             integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
             crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js"
+            integrity="sha512-egjn0g4nyX3074dTJbuzFHdPDu17RP8ElcYpQuQbl9VUu6RKQaqlX4dJJ/l7Z5fFniqLSOJgytwP0FiKf4MEfA=="
+            crossorigin="anonymous"></script><!--NGHI thêm-->
+    <script rel="stylesheet" type="text/javascript" href="~/js/chi-tiet-san-pham.js"></script>
     <!--Bootstrap 4-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
@@ -38,9 +49,17 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <style>
+        .jss24 {
+            color: black;
+            padding: 10px;
+            margin: 8px 8px 8px 0px;
+        }
+        /*NGHI thêm*/
+
         .jss59 {
             background: white;
         }
+
         .jss72 {
             color: black;
             padding: 12px;
@@ -50,8 +69,318 @@
     </style>
 </head>
 <body>
+    <div class="background">
+        <div class="container sign-up">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <form id="sign-up-form">
+                        <i class="far fa-window-close close-button"></i>
+                        <h1>Đăng ký</h1>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 main-lable">
+                                    <label for="ho-ten">Họ Tên</label>
+                                </div>
+                                <div class="col-md-9 col-sm-9">
+                                    <input type="text" class="textbox" name="ho-ten" placeholder="Nhập họ và tên" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 main-lable">
+                                    <label for="tai-khoan">Tài Khoản</label>
+                                </div>
+                                <div class="col-md-9 col-sm-9">
+                                    <input type="text" class="textbox" name="tai-khoan" placeholder="Nhập tên tài khoản" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 main-lable">
+                                    <label for="sdt">SĐT</label>
+                                </div>
+                                <div class="col-md-9 col-sm-9">
+                                    <input type="text" class="textbox" name="sdt" placeholder="Số điện thoại" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 main-lable">
+                                    <label for="ma-xac-thuc">Mã xác thực</label>
+                                </div>
+                                <div class="col-md-9 col-sm-9">
+                                    <input type="text" class="textbox" name="ma-xac-thuc" placeholder="Mã xác thực" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 main-lable">
+                                    <label for="password">Mật khẩu</label>
+                                </div>
+                                <div class="col-md-9 col-sm-9">
+                                    <input type="password" class="textbox" name="password" id="psword" placeholder="Nhập mật khẩu từ 6 đến 32 ký tự" />
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-eye-slash"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 main-lable">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="col-md-9 col-sm-9">
+                                    <input type="email" class="textbox" name="email" placeholder="Nhập Email" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 main-lable">
+                                    <label for="gioi-tinh">Giới tính</label>
+                                </div>
+                                <div class="col-md-9 col-sm-9">
+                                    <input type="radio" class="gt" name="gioi-tinh" checked="checked" />
+                                    <span class="gtinh">Nam</span>
+                                    <input type="radio" class="gt" name="gioi-tinh">
+                                    <span class="gtinh">Nữ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container ">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 main-lable">
+                                    <label for="birth">Ngày sinh</label>
+                                </div>
+                                <div class="col-md-9 col-sm-9">
+                                    <select id="day">
+                                        <option value="day">Ngày</option>
+                                    </select>
+                                    <select id="month">
+                                        <option value="month">Tháng</option>
+                                    </select>
+                                    <select id="year">
+                                        <option value="year">Năm</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3" id="thong-bao">
+                                    <input type="checkbox" name="thong-bao" value="notice">
+                                </div>
+                                <div class="col-md-9 col-sm-9">
+                                    <label for="thong-bao">Nhận thông tin và các chương trình khuyến mãi thông qua gmail</label><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row" style="height: 40px;">
+                                <div class="col-md-4 col-sm-12"></div>
+                                <div class="col-md-4 col-sm-12">
+                                    <button class="button-create-account">Tạo tài khoản</button>
+                                </div>
+                                <div class="col-md-4 col-sm-12"></div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background1">
+        <div class="container log-in">
+            <div class="row">
+                <div class="col-md-3 col-sm-12"></div>
+                <div class="col-md-6 col-sm-12">
+                    <form id="login-form">
+                        <i class="far fa-window-close close-button1"></i>
+                        <h1>Đăng nhập</h1>
+                        <div class="container">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <input type="text" class="textbox" name="tai-khoan" placeholder="Email/ Số điện thoại/ Tên đăng nhập" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <input type="password" class="textbox" name="password" id="psword1" placeholder="Mật khẩu" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="col-md-12">
+                                <div class="row" style="height: 40px;">
+                                    <button class="button-log-in">Đăng Nhập</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <span class="forgot-password"><a href="#">Quên mật khẩu</a></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="col-md-12">
+                                <div class="row" style="height: 40px;">
+                                    <button class="button-log-in-gg"><i class="fal fa-envelope icon1"></i>Đăng nhập bằng Email</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="col-md-12">
+                                <div class="row" style="height: 40px;">
+                                    <button class="button-log-in-fb"><i class="fab fa-facebook-square icon1"></i>Đăng nhập bằng Facebook</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <span class="forgot-password">Bạn mới biết đến BeInBeauty?<a id="show-sign-up-in-log-in" href="#">Đăng ký</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-3 col-sm-12"></div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav navbar-nav nav-right">
+                        <li class="nav-item active">
+                            @Html.ActionLink("Trang chủ","Index", "Home", new { @class = "nav-link", @style= "color: #bdbdbd; transition: 0.2s!important; border - bottom: 3px solid #73EFF7 !important;" })
+                            <span class="sr-only">(current)</span>
+                        </li>
+                        <li class="nav-item">
+                            @Html.ActionLink("Sản phẩm", "SanPham", "Home", new { @class = "nav-link" })
+                        </li>
+                        <li class="nav-item">
+                            @Html.ActionLink("Bài viết", "BaiViet", "Home", new { @class = "nav-link" })
+                        </li>
+                        <li class="nav-item">
+                            @Html.ActionLink("Thành phần", "ThanhPhan", "Home", new { @class = "nav-link" })
+                        </li>
+                        <li class="dropdown nav-item account">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Tài khoản
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li id="show-log-in-form">
+                                    <a href="#">Đăng Nhập</a>
+                                </li>
+                                <li id="show-sign-up-form">
+                                    <a href="#">Đăng Ký</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row" style="height: 30px;">
+            <label style="font-size: 20px;" class="label-mode">Chế độ màn hình</label>
+            <label class="switch">
+                <input type="checkbox" name="checkbox">
+                <span class="slider round">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </span>
+            </label>
+        </div>
+    </div>
     <div>
         @RenderBody()
     </div>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4 footer-header">
+
+                        <h3><strong>BeInBeauty</strong></h3>
+
+                        <div class="footer-content">
+                            <p>Tất cả các sản phẩm mới nhất giảm giá và ưu đãi có hạn - theo dõi hộp thư đến của bạn.</p>
+                            <form>
+                                <input type="email" placeholder="Nhập email của bạn vào đây" style="width: 80%;">
+                                <button type="submit" id="submit">
+                                </button>
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-4 footer-header">
+                        <h3 style="text-align: center;"><strong>Theo dõi chúng tôi</strong></h3>
+
+                        <div class="footer-content" style="text-align: center;">
+                            <i class="fab fa-facebook icon"><a href="#"></a></i>
+                            <i class="fab fa-twitter icon"><a href="#"></a></i>
+                            <i class="fab fa-instagram icon"><a href="#"></a></i>
+                            <i class="fab fa-youtube icon"><a href="#"></a></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3 footer-content">
+                            <h5><a href="#">Về chúng tôi</a></h5>
+                        </div>
+                        <div class="col-md-3 footer-content">
+                            <h5><a href="#">Liên hệ</a></h5>
+                        </div>
+                        <div class="col-md-3 footer-content">
+                            <h5><a href="#">Mua & Đổi trả</a></h5>
+                        </div>
+                        <div class="col-md-3 footer-content">
+                            <h5><a href="#">Câu hỏi thường gặp</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="text-align: center;">
+                <h5>Copyright © 2020 UEH</h5>
+            </div>
+        </div>
+    </footer>
+    <div class="back-to-top ">
+        <i class="fas fa-chevron-up "></i>
+    </div>
+    <script src="~/js/chi-tiet-san-pham.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+
 </body>
 </html>

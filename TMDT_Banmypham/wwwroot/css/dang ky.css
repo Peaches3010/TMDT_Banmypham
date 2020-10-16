@@ -1,0 +1,111 @@
+.background {
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    display: none;
+}
+
+.sign-up {
+    overflow: none;
+}
+
+#sign-up-form {
+    border: 1px solid #828282;
+    background-color: white;
+    z-index: 199999;
+    top: 20%;
+    position: relative;
+    border-radius: 5px;
+}
+
+.close-button {
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 0;
+    margin-left: 10%;
+    color: #9A9292;
+}
+
+.textbox {
+    border-radius: 5px;
+    width: 70%;
+}
+
+form .fas {
+    position: absolute;
+    font-size: 25px;
+    margin: 15px 0 0 -45px;
+}
+
+i.fa-eye {
+    margin-top: 2px;
+    cursor: pointer;
+    color: black !important;
+}
+
+i.fa-eye-slash {
+    margin-top: 2px;
+    cursor: pointer;
+    display: none;
+    color: black !important;
+}
+
+#thong-bao input {
+    margin-left: 100%;
+}
+
+.gt {
+    margin-left: 5%;
+}
+
+.gtinh {
+    color: black !important;
+}
+
+select {
+    margin-left: 5%;
+    width: 15%;
+}
+
+.button-create-account {
+    height: 40px;
+    margin-bottom: 20px;
+    width: 90%;
+    background-color: #F71D78;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+}
+
+.button-create-account :hover {
+    background-color: white;
+    color: #F71D78;
+    box-shadow: 2px;
+}
+
+.disable-scrolling {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}

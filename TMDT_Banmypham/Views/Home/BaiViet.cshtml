@@ -1,0 +1,528 @@
+﻿
+@{
+    ViewData["Title"] = "BaiViet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!--<nav class="jss4 jss5 navbar navbar-expand-md navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="pic/logo.png"
+                 alt="Logo" class="lazyloaded" height="35px">
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" aria-controls="basic-navbar-nav" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+            <div class="ml-auto navbar-nav">
+                <div class="jss7 nav-item">
+                    <a href="#" class="jss8">
+                        Trang chủ
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </div>
+                <div class="jss7 nav-item">
+                    <a href="#" class="jss8">
+                        Sản phẩm
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </div>
+                <div class="jss7 jss9 nav-item">
+                    <a href="#" class="jss8">
+                        Bài viết
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </div>
+                <div class="jss7 nav-item">
+                    <a href="#" class="jss8">
+                        Thành phần
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>-->
+
+
+<div class="jss13">
+    <!--Hình ảnh header-->
+    <img src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiIxN2JiODE4NzA4ZGY0YWY0OWZkYzY2ZTg3YWVlNjQ5MS5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9"
+         alt="Header image" class="jss14">
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 col-md-8">
+            <div class="jss19">
+                <span class="jss15">
+                    <a href="/">Trang chủ</a>
+                </span>
+                <span class="jss17">▶</span>
+                <span class="jss18"></span>
+                <span class="jss15 jss16">Bài viết</span>
+            </div>
+            <form class="jss20">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <select class="form-control">
+                            <option value="created_at:DESC">Sắp xếp theo bài viết mới nhất</option>
+                            <option value="created_at:ASC">Sắp xếp theo bài viết cũ nhất</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <input type="text" placeholder="Tìm kiếm theo tiêu đề" value="" id="q" class="form-control">
+                    </div>
+
+                    <div class="col-12">
+                        <div>
+                            <b>Tìm kiếm theo tag:</b>
+                            <span class="jss21 jss24 badge badge-pill">Xây dựng routine</span>
+                            <span class="jss22 jss24 badge badge-pill">Tổng hợp sản phẩm</span>
+                            <span class="jss23 jss24 badge badge-pill">Da dầu</span>
+                            <span class="jss21 jss24 badge badge-pill">Da nhạy cảm</span>
+                            <span class="jss22 jss24 badge badge-pill">Da khô</span>
+                            <a href="/tag">Tất cả tags</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="jss27">
+                <ul class="jss35 pagination">
+                    <li class="page-item disabled">
+                        <span class="page-link" disabled="">
+                            <span aria-hidden="true">«</span>
+                            <span class="sr-only">First</span>
+                        </span>
+                    </li>
+                    <li class="page-item disabled">
+                        <span class="page-link" disabled="">
+                            <span aria-hidden="true">‹</span>
+                            <span class="sr-only">Previous</span>
+                        </span>
+                    </li>
+                    <li class="page-item active">
+                        <span class="page-link">
+                            1
+                            <span class="sr-only">(current)</span>
+                        </span>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" role="button" href="#">
+                            2
+                        </a>
+                    </li>
+                    <li class="page-item disabled">
+                        <span class="page-link" disabled="">
+                            <span aria-hidden="true">...</span>
+                            <span class="sr-only">More</span>
+                        </span>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" role="button" href="#">
+                            5
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" role="button" href="#">
+                            <span aria-hidden="true">›</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" role="button" href="#">
+                            <span aria-hidden="true">»</span>
+                            <span class="sr-only">Last</span>
+                        </a>
+                    </li>
+
+                    <li class="page-item">
+                        <span class="page-link" role="button" href="#">
+                            <span aria-hidden="true">»</span>
+                            <span class="sr-only">Last</span>
+                        </span>
+                    </li>
+                    <!-- <div class="jss36 input-group"> -->
+                    <!-- <input class="form-control" value="1"> -->
+                    <!-- <div class="input-group-append"> -->
+                    <!-- <button type="button" class="btn btn-outline-secondary">Go</button> -->
+                    <!-- </div> -->
+                    <!-- </div> -->
+                </ul>
+                <div class="jss26">Kết quả 1-5 trên tổng số 21</div> <!--Tổng số sản phẩm-->
+            </div>
+            <div class="jss37 card">
+                <div class="jss38">
+                    <div class="jss39">1st upload</div>
+                    <div>Tháng 9</div>
+                    <div class="jss40">26</div>
+                    <div> 2020</div>
+                </div>
+                <div class="jss38 jss41">
+                    <div class="jss39">Last update</div>
+                    <div>Tháng 9</div>
+                    <div class="jss40">26</div>
+                    <div> 2020</div>
+                </div>
+                <div class="card-img jss42">
+                    <div class="">
+                        <img alt="Ceramide - quan trọng nhưng có cần thiết không" class="jss43 jss44" src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/web24_9_2fa43598db.jpg">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="jss56 card-subtitle h6">
+                        <span>
+                            <img alt="author Ceramide - quan trọng nhưng có cần thiết không" class="jss57" src="https://callmeduy.com/assets/img/icons/author.svg">
+                        </span>
+                        <span class="jss58"> by Nguyễn Vĩnh Nghi</span>
+                    </div>
+                    <div class="jss45 card-title h3">Ceramide - quan trọng nhưng có cần thiết không</div>
+                    <div class="">
+                        <span class="jss21 jss24 badge badge-pill">Da nhạy cảm</span>
+                        <span class="jss22 jss24 badge badge-pill">Da khô</span>
+                        <span class="jss23 jss24 badge badge-pill">Review thành phần</span>
+                    </div>
+                    <p class="jss59 card-text">
+                        Ceramide - một thành phần được “săn đón” trong những năm gần đây bởi nhiều lợi ích như hỗ trợ
+                        tái tạo màng bảo vệ da. Tuy vậy, Ceramide sẽ giảm dần khi chúng ta già đi (Khi 30 tuổi thì lượng
+                        Ceramide trong cơ thể sẽ mất đi 40%) [02]. Ngày càng nhiều sản phẩm có Ceramide trong bảng thành
+                        phần, mặc dù hầu hết đều ở gần cuối bảng thành phần. Liệu Ceramide có thực sự thần thánh như vậy
+                        không? Và nồng độ ceramide trong sản phẩm như thế nào thì mới đạt được hiệu quả tốt nhất? Hãy theo
+                        dõi nhé các bạn
+                    </p>
+                </div>
+            </div>
+            <div class="jss37 card">
+                <div class="jss38">
+                    <div class="jss39">1st upload</div>
+                    <div>Tháng 9</div>
+                    <div class="jss40">19</div>
+                    <div> 2020</div>
+                </div>
+                <div class="jss38 jss41">
+                    <div class="jss39">Last update</div>
+                    <div>Tháng 9</div>
+                    <div class="jss40">20</div>
+                    <div> 2020</div>
+                </div>
+                <div class="card-img jss42">
+                    <div class="">
+                        <img alt='Bắt buộc dùng Isotretinoin để "TRỊ MỤN" - những điều chưa ai nói với bạn !' class="jss43 jss44" src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/yass_8704d5e0eb.jpg">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="jss56 card-subtitle h6">
+                        <span>
+                            <img alt="author Ceramide - quan trọng nhưng có cần thiết không" class="jss57" src="https://callmeduy.com/assets/img/icons/author.svg">
+                        </span>
+                        <span class="jss58"> by Nguyễn Vĩnh Nghi</span>
+                    </div>
+                    <div class="jss45 card-title h3">Bắt buộc dùng Isotretinoin để "TRỊ MỤN" - những điều chưa ai nói với bạn !</div>
+                    <div class="">
+                        <span class="jss21 jss24 badge badge-pill">Review thành phần</span>
+                    </div>
+                    <p class="jss59 card-text">
+                        Isotretinoin từ lâu đã được xem là một loại thuốc chữa mụn hiệu quả nhất. Tuy vậy, bạn có hiểu rõ
+                        nguyên nhân vì sao chưa? Và vì sao có nhiều trường hợp tái phát mụn sau khi đã uống isotretinoin,
+                        vậy thì nó có thực sự là một phương pháp hiệu quả không? Hãy cùng theo dõi bài viết sau đây nhé.
+                    </p>
+                </div>
+            </div>
+            <div class="jss37 card">
+                <div class="jss38">
+                    <div class="jss39">1st upload</div>
+                    <div>Tháng 9</div>
+                    <div class="jss40">12</div>
+                    <div> 2020</div>
+                </div>
+                <div class="jss38 jss41">
+                    <div class="jss39">Last update</div>
+                    <div>Tháng 9</div>
+                    <div class="jss40">16</div>
+                    <div> 2020</div>
+                </div>
+                <div class="card-img jss42">
+                    <div class="">
+                        <img alt="Sự thật về Hyaluronic acid cấu trúc siêu nhỏ trong skincare" class="jss43 jss44" src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/web11_9_390b763ca2.jpg">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="jss56 card-subtitle h6">
+                        <span>
+                            <img alt="author Ceramide - quan trọng nhưng có cần thiết không" class="jss57" src="https://callmeduy.com/assets/img/icons/author.svg">
+                        </span>
+                        <span class="jss58"> by Nguyễn Vĩnh Nghi</span>
+                    </div>
+                    <div class="jss45 card-title h3">Sự thật về Hyaluronic acid cấu trúc siêu nhỏ trong skincare</div>
+                    <div class="">
+                        <span class="jss21 jss24 badge badge-pill">Review thành phần</span>
+                    </div>
+                    <p class="jss59 card-text">
+                        Các nhãn hàng thường tự hào với công nghệ HA trọng lượng nhỏ giúp HA thấm sâu vào da và cấp nước
+                        tốt hơn. Tuy nhiên liệu đó có phải là sự thật? và còn thông tin gì mà các nhãn hàng chưa đề cập
+                        với bạn về HA cấu trúc nhỏ/ siêu nhỏ hay không? Hãy cùng tìm hiểu trong bài viết này nhé!
+                    </p>
+                </div>
+            </div>
+            <div class="jss37 card">
+                <div class="jss38">
+                    <div class="jss39">1st upload</div>
+                    <div>Tháng 9</div>
+                    <div class="jss40">05</div>
+                    <div> 2020</div>
+                </div>
+                <div class="jss38 jss41">
+                    <div class="jss39">Last update</div>
+                    <div>Tháng 9</div>
+                    <div class="jss40">15</div>
+                    <div> 2020</div>
+                </div>
+                <div class="card-img jss42">
+                    <div class="">
+                        <img alt="Bakuchiol - thành phần thay thế cho Retinol?" class="jss43 jss44" src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/web3_9_897c458247.jpg">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="jss56 card-subtitle h6">
+                        <span>
+                            <img alt="author Ceramide - quan trọng nhưng có cần thiết không" class="jss57" src="https://callmeduy.com/assets/img/icons/author.svg">
+                        </span>
+                        <span class="jss58"> by Nguyễn Vĩnh Nghi</span>
+                    </div>
+                    <div class="jss45 card-title h3">Bakuchiol - thành phần thay thế cho Retinol?</div>
+                    <div class="">
+                        <span class="jss21 jss24 badge badge-pill">Review thành phần</span>
+                    </div>
+                    <p class="jss59 card-text">
+                        Bakuchiol được quan tâm gần đây trong lĩnh vực mỹ phẩm do được xem như chất thay thế retinol,
+                        có tác dụng như retinol nhưng lại không có quá nhiều tác dụng phụ. Liệu thực tế có như vậy hay
+                        không hay đây chỉ là chiêu trò marketing của các hãng mỹ phẩm?
+                    </p>
+                </div>
+            </div>
+            <div class="jss37 card">
+                <div class="jss38">
+                    <div class="jss39">1st upload</div>
+                    <div>Tháng 8</div>
+                    <div class="jss40">29</div>
+                    <div> 2020</div>
+                </div>
+                <div class="jss38 jss41">
+                    <div class="jss39">Last update</div>
+                    <div>Tháng 8</div>
+                    <div class="jss40">29</div>
+                    <div> 2020</div>
+                </div>
+                <div class="card-img jss42">
+                    <div class="">
+                        <img alt="Over exfoliate - làm gì khi bạn tẩy tế bào chết quá mức?" class="jss43 jss44" src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/web28_8_7620147af1.jpg">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="jss56 card-subtitle h6">
+                        <span>
+                            <img alt="author Ceramide - quan trọng nhưng có cần thiết không" class="jss57" src="https://callmeduy.com/assets/img/icons/author.svg">
+                        </span>
+                        <span class="jss58"> by Nguyễn Vĩnh Nghi</span>
+                    </div>
+                    <div class="jss45 card-title h3">Over exfoliate - làm gì khi bạn tẩy tế bào chết quá mức?</div>
+                    <div class="">
+                        <span class="jss21 jss24 badge badge-pill">Da nhạy cảm</span>
+                        <span class="jss22 jss24 badge badge-pill">Da mụn</span>
+                        <span class="jss23 jss24 badge badge-pill">Da khô</span>
+                    </div>
+                    <p class="jss59 card-text">
+                        Da bạn đang rất đẹp, bỗng một ngày bạn thêm một sản phẩm tẩy tế bào chết mới và đùng….. da bạn
+                        bỗng trở nên khô hơn, thoa sản phẩm bị rát hơn, bị nổi mụn liti và bạn cảm thấy bối rối không
+                        biết điều gì xảy ra. Nếu bạn đã gặp trường hợp như vậy thì có thể bạn đã tẩy tế bào chết quá mức
+                        (Over-exfoliate) đấy! Vậy thì hãy đọc qua bài này xem bạn có phải gặp tình trạng đó hay không và
+                        cách phòng tránh nhé!
+                    </p>
+                </div>
+            </div>
+            <div class="jss27">
+                <ul class="jss35 pagination">
+                    <li class="page-item disabled">
+                        <span class="page-link" disabled="">
+                            <span aria-hidden="true">«</span>
+                            <span class="sr-only">First</span>
+                        </span>
+                    </li>
+                    <li class="page-item disabled">
+                        <span class="page-link" disabled="">
+                            <span aria-hidden="true">‹</span>
+                            <span class="sr-only">Previous</span>
+                        </span>
+                    </li>
+                    <li class="page-item active">
+                        <span class="page-link">
+                            1
+                            <span class="sr-only">(current)</span>
+                        </span>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" role="button" href="#">
+                            2
+                        </a>
+                    </li>
+                    <li class="page-item disabled">
+                        <span class="page-link" disabled="">
+                            <span aria-hidden="true">...</span>
+                            <span class="sr-only">More</span>
+                        </span>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" role="button" href="#">
+                            5
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" role="button" href="#">
+                            <span aria-hidden="true">›</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" role="button" href="#">
+                            <span aria-hidden="true">»</span>
+                            <span class="sr-only">Last</span>
+                        </a>
+                    </li>
+
+                    <li class="page-item">
+                        <span class="page-link" role="button" href="#">
+                            <span aria-hidden="true">»</span>
+                            <span class="sr-only">Last</span>
+                        </span>
+                    </li>
+                    <!-- <div class="jss36 input-group"> -->
+                    <!-- <input class="form-control" value="1"> -->
+                    <!-- <div class="input-group-append"> -->
+                    <!-- <button type="button" class="btn btn-outline-secondary">Go</button> -->
+                    <!-- </div> -->
+                    <!-- </div> -->
+                </ul>
+                <div class="jss26">Kết quả 1-5 trên tổng số 21</div> <!--Tổng số sản phẩm-->
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-3 offset-md-1">
+            <div class="jss47">
+                <h5 class="jss46"><b>Sản phẩm nổi bật</b></h5>
+                <div>
+                    <a class="jss53" href="/">
+                        <div class="jss48 card">
+                            <div class="jss49 card-header">
+                                <img alt="Biossance Squalane oil 100%" class="jss76"
+                                     src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiIzZDBiMmVmYWIyZDk0MGViYTllYzM4NzY1NmIyYzhhYy5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9">
+                            </div>
+                            <div class="card-body">
+                                <div class="jss50 card-title h5">
+                                    Biossance Squalane oil 100%<br>
+                                    <span class="jss51 badge badge-pill">
+                                        DẦU DƯỠNG
+                                    </span>
+                                </div>
+                                <p class="card-text">600.000<sup>đ</sup></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="jss53" href="/">
+                        <div class="jss48 card">
+                            <div class="jss49 card-header">
+                                <img alt="Differin gel (Adapalene 0.1%)" class="jss76"
+                                     src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/differin_gel_679f7308a4.jpg">
+                            </div>
+                            <div class="card-body">
+                                <div class="jss50 card-title h5">
+                                    Differin gel (Adapalene 0.1%)<br>
+                                    <span class="jss51 badge badge-pill">
+                                        RETINOID
+                                    </span>
+                                </div>
+                                <p class="card-text">350.000<sup>đ</sup></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="jss53" href="/">
+                        <div class="jss48 card">
+                            <div class="jss49 card-header">
+                                <img alt="Treatment (2.5% Benzoyl Peroxide)" class="jss76"
+                                     src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiIyZDUxZmI2M2MzNTQ0ZmMxOTY5OThjOTAxNzUyOGI0YS5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9">
+                            </div>
+                            <div class="card-body">
+                                <div class="jss50 card-title h5">
+                                    Treatment (2.5% Benzoyl)<br>
+                                    <span class="jss51 badge badge-pill">
+                                        CHẤM MỤN
+                                    </span>
+                                </div>
+                                <p class="card-text">650.000<sup>đ</sup></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="jss53" href="/">
+                        <div class="jss48 card">
+                            <div class="jss49 card-header">
+                                <img alt="Advanced Snail 96 Mucin" class="jss76"
+                                     src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiJhY2M3N2E1Y2E4ZDA0YmRhYjg4MDM4N2Q0MTZhYjZlNi5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9">
+
+                            </div>
+                            <div class="card-body">
+                                <div class="jss50 card-title h5">
+                                    Advanced Snail 96 Mucin<br>
+                                    <span class="jss51 badge badge-pill">
+                                        ESSENCE
+                                    </span>
+                                </div>
+                                <p class="card-text">300.000<sup>đ</sup></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="jss53" href="/">
+                        <div class="jss48 card">
+                            <div class="jss49 card-header">
+                                <img alt="Hydrating Facial Cleanser" class="jss76"
+                                     src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/Cera_Ve_Hydrating_Facial_Cleanser_Callmeduy_cb2acb2337.jpeg">
+
+                            </div>
+                            <div class="card-body">
+                                <div class="jss50 card-title h5">
+                                    Hydrating Facial Cleanser<br>
+                                    <span class="jss51 badge badge-pill">
+                                        SỮA RỬA MẶT
+                                    </span>
+                                </div>
+                                <p class="card-text">370.000<sup>đ</sup></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="jss53" href="/">
+                        <div class="jss48 card">
+                            <div class="jss49 card-header">
+                                <img alt="SKIN LONG-WEAR FLUID 20" class="jss76"
+                                     src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiJlYjlkZjhkNjE2NTQ0ZjgzODZhYTNkZDM4NjllYzU4Ni5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9">
+
+                            </div>
+                            <div class="card-body">
+                                <div class="jss50 card-title h5">
+                                    Skin Long-Wear Fluid SPF 20<br>
+                                    <span class="jss51 badge badge-pill">
+                                        KEM NỀN
+                                    </span>
+                                </div>
+                                <p class="card-text">1.200.000<sup>đ</sup></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a href="#" id="goup-btn" class="jss77">
+    <img alt="go up" class="ls-is-cached lazyloaded" data-=""
+         src="https://callmeduy.com/assets/img/arrow_up.png" width="40px">
+</a>
+

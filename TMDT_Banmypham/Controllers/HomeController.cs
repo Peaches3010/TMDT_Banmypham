@@ -27,6 +27,18 @@ namespace TMDT_Banmypham.Controllers
         {
             return View();
         }
+        public IActionResult SanPham()
+        {
+            return View();
+        }
+        public IActionResult ThanhPhan()
+        {
+            return View();
+        }
+        public IActionResult BaiViet()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
