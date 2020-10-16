@@ -49,27 +49,27 @@
 </nav>-->
 
 
-<div class="jss13">
+<div class="hinhanh_header">
     <!--Hình ảnh header-->
     <img src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiIxN2JiODE4NzA4ZGY0YWY0OWZkYzY2ZTg3YWVlNjQ5MS5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9"
-         alt="Header image" class="jss14">
+         alt="Header image" class="hinhanh_header_img">
 </div>
 
 <div class="container">
-    <div class="row jss2">
+    <div class="row dinhdang">
         <div class="col-sm-8 col-md-8">
-            <div class="jss19">
+            <div class="container_map">
                 <!--Map-->
-                <span class="jss15">
+                <span class="container_map_trangchu_thanhphan">
                     <a href="/">Trang chủ</a>
                 </span>
-                <span class="jss17">▶</span>
-                <span class="jss18"></span>
-                <span class="jss15 jss16">Thành phần</span>
+                <span class="container_map_muiten">▶</span>
+                <span class="container_map_ketnoi"></span>
+                <span class="container_map_trangchu_thanhphan container_map_thanhphan">Thành phần</span>
             </div>
 
-            <div class="jss20 row">
-                <div class="jss21 col-12">
+            <div class="dinhdang_body row">
+                <div class="dinhdang_mota col-12">
                     <!--Mô tả-->
                     <h3>Hướng dẫn sử dụng</h3>
                     <ul>
@@ -77,7 +77,7 @@
                         <li>Mỗi chất sẽ được highlight khác nhau </li>
                         <li>
                             Để phân tích các chất, bạn có thể nhập các ký tự
-                            <b class="jss22">
+                            <b class="dinhdang_mota_kytudacbiet">
                                 <span>;</span>
                                 <span>|</span>
                                 <span>_</span>
@@ -94,21 +94,21 @@
                 </div>
                 <div class="col-12">
                     <!--Bảng tra*-->
-                    <div class="jss23">
-                        <div class="jss24">
-                            <div class="jss25 jss26 jss27">
-                                <div class="jss25 jss32">
-                                    <span class="jss29"></span>
+                    <div class="dinhdang_bangtra">
+                        <div class="dinhdang_bangtra_reponsive">
+                            <div class="dinhdang_bangtra_chitiet1 dinhdang_bangtra_chitiet2 dinhdang_bangtra_chitiet3">
+                                <div class=".dinhdang_bangtra_chitiet1 dinhdang_bangtra_chitiet4">
+                                    <span class="dinhdang_bangtra_chitiet_mausac"></span>
                                 </div>
                             </div>
-                            <textarea class="jss25 jss27 jss28" placeholder="Tìm kiếm thành phẩn"
+                            <textarea class=".dinhdang_bangtra_chitiet1 .dinhdang_bangtra_chitiet3 dinhdang_bangtra_chitiet5" placeholder="Tìm kiếm thành phẩn"
                                       autofocus spellcheck="false"></textarea>
                         </div>
-                        <div class="jss30">
-                            <button class="jss31">
+                        <div class="dinhdang_bangtra_button">
+                            <button class="dinhdang_bangtra_button_chitiet">
                                 <img alt="search" src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png">
                             </button>
-                            <button class="jss31">
+                            <button class="dinhdang_bangtra_button_chitiet">
                                 <img alt="search" src="https://cdn.onlinewebfonts.com/svg/img_324119.png">
                             </button>
                         </div>
@@ -180,65 +180,141 @@
                 </ul>
                 <div class="jss34">Kết quả 1-12 trên tổng số 2907</div>
 
-                <div class="jss57 row">
+                <div class="dinhdang_chat row">
                     <!--Các chất từ trên xuống-->
                     <div class="col-lg-6 col-12">
                         <div class="row">
                             <div class="col-sm-3 col-12">
-                                <div class="jss67 jss62 jss63">
-                                    <span class="jss66">1</span>
+                                <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_badcolor">
+                                    <span class="dinhdang_doantoan">1</span>
                                 </div>
                             </div>
                             <div class="col-sm-9 col-12">
-                                <h4 class="jss58">Alpha-Metyl Ionone</h4>
-                                <div class="jss59"></div>
+                                <h4 class="chat">Alpha-Metyl Ionone</h4>
+                                <div></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
                         <p>Hương liệu gây kích ứng mạnh, có nguy cơ gây ra kích ứng da dù ở các nồng độ...</p>
-                        <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chat1">Xem chi tiết</button>
+                        <div class="modal fade" id="chat1">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <div class="row">
+                                            <div class="col-sm-3 col-12">
+                                                <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_badcolor">
+                                                    <span class="dinhdang_doantoan">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-9 col-12">
+                                                <h4 class="chat">Alpha-Metyl Ionone</h4>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <div>
+                                            Tên gọi khác:
+                                            <ul>
+                                                <li>Alpha-Methyl Ionone</li>
+                                            </ul>
+                                        </div>
+                                        <p>Hương liệu gây kích ứng mạnh, có nguy cơ gây ra kích ứng da dù ở các nồng độ thấp đến 0,001%</p>
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <!-- <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div> -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="jss57 row">
+                <div class="dinhdang_chat row">
                     <div class="col-lg-6 col-12">
                         <div class="row">
                             <div class="col-sm-3 col-12">
-                                <div class="jss67 jss62 jss65">
-                                    <span class="jss66">4</span>
+                                <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                    <span class="dinhdang_doantoan">4</span>
                                 </div>
                             </div>
                             <div class="col-sm-9 col-12">
-                                <h4 class="jss58">Alteromonas Ferment Extract</h4>
-                                <div class="jss59">
-                                    <span class="jss71 jss72 badge badge-pill">Chiết xuất thực vật</span>
+                                <h4 class="chat">Alteromonas Ferment Extract</h4>
+                                <div>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chiết xuất thực vật</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
                         <p>Nó có tính ngậm nước và được xem là một thành phần làm dịu da hiệu quả</p>
-                        <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chat2">Xem chi tiết</button>
+                    </div>
+                    <div class="modal fade" id="chat2">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-12">
+                                            <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                                <span class="dinhdang_doantoan">4</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-12">
+                                            <h4 class="chat">Alteromonas Ferment Extract</h4>
+                                            <div>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chiết xuất thực vật</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div>
+                                        Tên gọi khác:
+                                        <ul>
+                                            <li>Alteromonas Ferment Extract</li>
+                                        </ul>
+                                    </div>
+                                    <p>nó có tính ngậm nước và được xem là một thành phần làm dịu da hiệu quả</p>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="jss57 row">
+                <div class="dinhdang_chat row">
                     <div class="col-lg-6 col-12">
                         <div class="row">
                             <div class="col-sm-3 col-12">
-                                <div class="jss67 jss62 jss65">
-                                    <span class="jss66">5</span>
+                                <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                    <span class="dinhdang_doantoan">5</span>
                                 </div>
                             </div>
                             <div class="col-sm-9 col-12">
-                                <h4 class="jss58">Althea Officinalis</h4>
-                                <div class="jss59">
-                                    <span class="jss71 jss72 badge badge-pill">Chất làm dịu da</span>
-                                    <span class="jss71 jss72 badge badge-pill">Chiết xuất thực vật</span>
+                                <h4 class="chat">Althea Officinalis</h4>
+                                <div>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chất làm dịu da</span>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chiết xuất thực vật</span>
                                 </div>
                                 <div>
                                     Tên gọi khác:
                                     <ul>
-                                        <li>Mashmallow Root</li>
+                                        <li>Mashmallow Root ...</li>
                                     </ul>
                                 </div>
                             </div>
@@ -246,104 +322,309 @@
                     </div>
                     <div class="col-lg-6 col-12">
                         <p>Althea officinalis, hoặc rễ Mashmallow, có chứa nhiều polysaccharides tinh bột và chất nhầy, tạo thành lớp gel bảo...</p>
-                        <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chat3">Xem chi tiết</button>
+                    </div>
+                    <div class="modal fade" id="chat3">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-12">
+                                            <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                                <span class="dinhdang_doantoan">5</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-12">
+                                            <h4 class="chat">Althea Officinalis</h4>
+                                            <div>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chất làm dịu da</span>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chiết xuất thực vật</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div>
+                                        Tên gọi khác:
+                                        <ul>
+                                            <li>Althea Officinalis</li>
+                                            <li>Marshmallow Root Extract, Marshmallow</li>
+                                        </ul>
+                                    </div>
+                                    <p>
+                                        Althea officinalis, hoặc rễ Marshmallow, có chứa nhiều polysaccharides tinh bột và chất nhầy,
+                                        tạo thành lớp gel bảo vệ da cùng với flavonoid và anthocyanidins. Lớp gel bảo vệ da có hiệu quả
+                                        làm dịu sự kích ứng và giảm viêm. Rễ của Marshmallow có thể thúc đẩy quá trình tạo mô và tăng độ ẩm da
+                                        trong khi da thiếu nước. Marshmallow được sử dụng trong mỹ phẩm vì đặc tính làm dịu và dưỡng ẩm.
+                                    </p>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="jss57 row">
+                <div class="dinhdang_chat row">
                     <div class="col-lg-6 col-12">
                         <div class="row">
                             <div class="col-sm-3 col-12">
-                                <div class="jss67 jss62 jss65">
-                                    <span class="jss66">4</span>
+                                <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                    <span class="dinhdang_doantoan">4</span>
                                 </div>
                             </div>
                             <div class="col-sm-9 col-12">
-                                <h4 class="jss58">Aluminium</h4>
-                                <div class="jss59">
-                                    <span class="jss71 jss72 badge badge-pill">Chưa phân loại</span>
+                                <h4 class="chat">Aluminium</h4>
+                                <div>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chưa phân loại</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
                         <p>Sử dụng an toàn trong mỹ phẩm, thuốc men và thiết bị y tế</p>
-                        <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chat4">Xem chi tiết</button>
+                    </div>
+                    <div class="modal fade" id="chat4">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-12">
+                                            <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                                <span class="dinhdang_doantoan">4</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-12">
+                                            <h4 class="chat">Aluminium</h4>
+                                            <div>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chưa phân loại</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div>
+                                        Tên gọi khác:
+                                        <ul>
+                                            <li>Aluminium</li>
+                                        </ul>
+                                    </div>
+                                    <p>sử dụng an toàn trong mỹ phẩm, thuốc men và thiết bị y tế.</p>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="jss57 row">
+                <div class="dinhdang_chat row">
                     <div class="col-lg-6 col-12">
                         <div class="row">
                             <div class="col-sm-3 col-12">
-                                <div class="jss67 jss62 jss65">
-                                    <span class="jss66">4</span>
+                                <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                    <span class="dinhdang_doantoan">4</span>
                                 </div>
                             </div>
                             <div class="col-sm-9 col-12">
-                                <h4 class="jss58">Aluminium/Mangesium Stearate</h4>
-                                <div class="jss59">
-                                    <span class="jss71 jss72 badge badge-pill">Chưa phân loại</span>
+                                <h4 class="chat">Aluminium/ Mangesium Stearate</h4>
+                                <div>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chưa phân loại</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
                         <p>Sử dụng an toàn trong mỹ phẩm, thuốc men và thiết bị y tế</p>
-                        <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chat5">Xem chi tiết</button>
+                    </div>
+                    <div class="modal fade" id="chat5">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-12">
+                                            <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                                <span class="dinhdang_doantoan">4</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-12">
+                                            <h4 class="chat">Aluminium/ Mangesium Stearate</h4>
+                                            <div>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chưa phân loại</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div>
+                                        Tên gọi khác:
+                                        <ul>
+                                            <li>Aluminium/Magnesium Stearate</li>
+                                        </ul>
+                                    </div>
+                                    <p>sử dụng an toàn trong mỹ phẩm, thuốc men và thiết bị y tế.</p>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="jss57 row">
+                <div class="dinhdang_chat row">
                     <div class="col-lg-6 col-12">
                         <div class="row">
                             <div class="col-sm-3 col-12">
-                                <div class="jss67 jss62 jss65">
-                                    <span class="jss66">4</span>
+                                <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                    <span class="dinhdang_doantoan">4</span>
                                 </div>
                             </div>
                             <div class="col-sm-9 col-12">
-                                <h4 class="jss58">Aluminum</h4>
-                                <div class="jss59">
-                                    <span class="jss71 jss72 badge badge-pill">Chưa phân loại</span>
+                                <h4 class="chat">Aluminum</h4>
+                                <div>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chưa phân loại</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
                         <p>Sử dụng an toàn trong mỹ phẩm, thuốc men và thiết bị y tế</p>
-                        <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chat6">Xem chi tiết</button>
+                    </div>
+                    <div class="modal fade" id="chat6">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-12">
+                                            <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                                <span class="dinhdang_doantoan">4</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-12">
+                                            <h4 class="chat">Aluminum</h4>
+                                            <div>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chưa phân loại</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div>
+                                        Tên gọi khác:
+                                        <ul>
+                                            <li>Aluminum</li>
+                                        </ul>
+                                    </div>
+                                    <p>sử dụng an toàn trong mỹ phẩm, thuốc men và thiết bị y tế.</p>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="jss57 row">
+                <div class="dinhdang_chat row">
                     <div class="col-lg-6 col-12">
                         <div class="row">
                             <div class="col-sm-3 col-12">
-                                <div class="jss67 jss62 jss64">
-                                    <span class="jss66">3</span>
+                                <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_normalcolor">
+                                    <span class="dinhdang_doantoan">3</span>
                                 </div>
                             </div>
                             <div class="col-sm-9 col-12">
-                                <h4 class="jss58">Aluminum Chloride</h4>
-                                <div class="jss59">
-                                    <span class="jss71 jss72 badge badge-pill">Hấp thụ dầu</span>
+                                <h4 class="chat">Aluminum Chloride</h4>
+                                <div>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Hấp thụ dầu</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
                         <p>Muối kiềm được sử dụng để cân bằng độ pH trong các sản phẩm chăm sóc da; sử dụng...</p>
-                        <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chat7">Xem chi tiết</button>
+                    </div>
+                    <div class="modal fade" id="chat7">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-12">
+                                            <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_normalcolor">
+                                                <span class="dinhdang_doantoan">3</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-12">
+                                            <h4 class="chat">Aluminum Chloride</h4>
+                                            <div>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Hấp thụ dầu</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div>
+                                        Tên gọi khác:
+                                        <ul>
+                                            <li>Aluminum Chloride</li>
+                                        </ul>
+                                    </div>
+                                    <p>
+                                        Muối kiềm được sử dụng để cân bằng độ pH trong các sản phẩm chăm sóc da;
+                                        sử dụng không đúng nồng độ có thể gây vấn đề cho da.
+                                    </p>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="jss57 row">
+                <div class="dinhdang_chat row">
                     <div class="col-lg-6 col-12">
                         <div class="row">
                             <div class="col-sm-3 col-12">
-                                <div class="jss67 jss62 jss65">
-                                    <span class="jss66">4</span>
+                                <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                    <span class="dinhdang_doantoan">4</span>
                                 </div>
                             </div>
                             <div class="col-sm-9 col-12">
-                                <h4 class="jss58">Aluminum Dimyristate</h4>
-                                <div class="jss59">
+                                <h4 class="chat">Aluminum Dimyristate</h4>
+                                <div>
                                     <span class="jss71 jss72 badge badge-pill">Chất tạo màng/ giữ kết cấu sản phẩm</span>
                                 </div>
                             </div>
@@ -351,119 +632,313 @@
                     </div>
                     <div class="col-lg-6 col-12">
                         <p>Là một axit béo tự nhiên xuất hiện trong một số loại thực phẩm. Axit Myristic tinh khiết xuất...</p>
-                        <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chat8">Xem chi tiết</button>
+                    </div>
+                    <div class="modal fade" id="chat8">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-12">
+                                            <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                                <span class="dinhdang_doantoan">4</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-12">
+                                            <h4 class="chat">Aluminum Dimyristate</h4>
+                                            <div>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chất tạo màng/ giữ kết cấu sản phẩm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div>
+                                        Tên gọi khác:
+                                        <ul>
+                                            <li>Aluminum Dimyristate</li>
+                                        </ul>
+                                    </div>
+                                    <p>
+                                        là một axit béo tự nhiên xuất hiện trong một số loại thực phẩm.
+                                        Axit Myristic tinh khiết xuất hiện dưới dạng chất rắn tinh thể bóng cứng,
+                                        màu trắng hoặc mờ nhạt, hoặc dạng bột màu trắng hoặc vàng trắng
+                                    </p>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="jss57 row">
+                <div class="dinhdang_chat row">
                     <div class="col-lg-6 col-12">
                         <div class="row">
                             <div class="col-sm-3 col-12">
-                                <div class="jss67 jss62 jss65">
-                                    <span class="jss66">4</span>
+                                <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                    <span class="dinhdang_doantoan">4</span>
                                 </div>
                             </div>
                             <div class="col-sm-9 col-12">
-                                <h4 class="jss58">Aluminum Distearate</h4>
-                                <div class="jss59">
+                                <h4 class="chat">Aluminum Distearate</h4>
+                                <div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
                         <p>Là một axit béo tự nhiên xuất hiện trong một số loại thực phẩm. Axit Myristic tinh khiết xuất...</p>
-                        <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chat9">Xem chi tiết</button>
+                    </div>
+                    <div class="modal fade" id="chat9">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-12">
+                                            <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                                <span class="dinhdang_doantoan">4</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-12">
+                                            <h4 class="chat">Aluminum Distearate</h4>
+                                            <div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div>
+                                        Tên gọi khác:
+                                        <ul>
+                                            <li>Aluminum Distearate</li>
+                                        </ul>
+                                    </div>
+                                    <p>
+                                        là một axit béo tự nhiên xuất hiện trong một số loại thực phẩm.
+                                        Axit Myristic tinh khiết xuất hiện dưới dạng chất rắn tinh thể bóng cứng,
+                                        màu trắng hoặc mờ nhạt, hoặc dạng bột màu trắng hoặc vàng trắng
+                                    </p>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="jss57 row">
+                <div class="dinhdang_chat row">
                     <div class="col-lg-6 col-12">
                         <div class="row">
                             <div class="col-sm-3 col-12">
-                                <div class="jss67 jss62 jss65">
-                                    <span class="jss66">4</span>
+                                <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                    <span class="dinhdang_doantoan">4</span>
                                 </div>
                             </div>
                             <div class="col-sm-9 col-12">
-                                <h4 class="jss58">Aluminum Hydroxide</h4>
-                                <div class="jss59">
-                                    <span class="jss71 jss72 badge badge-pill">Tạo kết cấu sản phẩm</span>
-                                    <span class="jss71 jss72 badge badge-pill">Hấp thụ dầu</span>
+                                <h4 class="chat">Aluminum Hydroxide</h4>
+                                <div>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Tạo kết cấu sản phẩm</span>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Hấp thụ dầu</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
                         <p>Có chức năng như một chất cản quang, chất tạo màu và chất hấp thụ, hoàn toàn an toàn...</p>
-                        <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chat10">Xem chi tiết</button>
+                    </div>
+                    <div class="modal fade" id="chat10">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-12">
+                                            <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                                <span class="dinhdang_doantoan">4</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-12">
+                                            <h4 class="chat">Aluminum Hydroxide</h4>
+                                            <div>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Tạo kết cấu sản phẩm</span>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Hấp thụ dầu</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div>
+                                        Tên gọi khác:
+                                        <ul>
+                                            <li>Aluminum Hydroxide</li>
+                                        </ul>
+                                    </div>
+                                    <p>có chức năng như một chất cản quang, chất tạo màu và chất hấp thụ, hoàn toàn an toàn cho da</p>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="jss57 row">
+                <div class="dinhdang_chat row">
                     <div class="col-lg-6 col-12">
                         <div class="row">
                             <div class="col-sm-3 col-12">
-                                <div class="jss67 jss62 jss65">
-                                    <span class="jss66">4</span>
+                                <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                    <span class="dinhdang_doantoan">4</span>
                                 </div>
                             </div>
                             <div class="col-sm-9 col-12">
-                                <h4 class="jss58">Amethst Extract</h4>
-                                <div class="jss59">
-                                    <span class="jss71 jss72 badge badge-pill">Chất dưỡng da</span>
-                                    <span class="jss71 jss72 badge badge-pill">Chất hồi phục da</span>
+                                <h4 class="chat">Amethst Extract</h4>
+                                <div>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chất dưỡng da</span>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chất hồi phục da</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
                         <p>Thạch anh tím là một tinh thể mà nhiều người biết đến vẻ đẹp trang trí và sự hiện...</p>
-                        <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chat11">Xem chi tiết</button>
+                    </div>
+                    <div class="modal fade" id="chat11">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-12">
+                                            <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                                <span class="dinhdang_doantoan">4</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-12">
+                                            <h4 class="chat">Amethst Extract</h4>
+                                            <div>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chất dưỡng da</span>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chất hồi phục da</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div>
+                                        Tên gọi khác:
+                                        <ul>
+                                            <li>Amethyst Extract</li>
+                                        </ul>
+                                    </div>
+                                    <p>
+                                        Thạch anh tím là một tinh thể mà nhiều người biết đến vẻ đẹp trang trí và sự hiện diện chữa bệnh của nó trong nhà -
+                                        nhưng ít người biết được lợi ích của da chữa bệnh. Những khoáng chất này không chỉ ảnh hưởng đến tâm trí và tính khí
+                                        của bạn mà còn có lợi ích chăm sóc da. Cũng giống như vitamin, cơ thể chúng ta cũng cần khoáng chất, và vì chúng ta
+                                        được tạo thành từ nước, khoáng chất và mô, chúng có lợi cho cơ thể và làn da của chúng ta.
+                                    </p>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="jss57 row">
+                <div class="dinhdang_chat row">
                     <div class="col-lg-6 col-12">
                         <div class="row">
                             <div class="col-sm-3 col-12">
-                                <div class="jss67 jss62 jss65">
-                                    <span class="jss66">4</span>
+                                <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                    <span class="dinhdang_doantoan">4</span>
                                 </div>
                             </div>
                             <div class="col-sm-9 col-12">
-                                <h4 class="jss58">Aminopropyl Ascorbyl Phosphate</h4>
-                                <div class="jss59">
-                                    <span class="jss71 jss72 badge badge-pill">Chất tạo màng/giữ kết cấu sản phẩm</span>
-                                    <span class="jss71 jss72 badge badge-pill">Chất dưỡng da</span>
-                                    <span class="jss71 jss72 badge badge-pill">Chất hồi phục da</span>
+                                <h4 class="chat">Aminopropyl Ascorbyl Phosphate</h4>
+                                <div>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chất tạo màng/giữ kết cấu sản phẩm</span>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chất dưỡng da</span>
+                                    <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chất hồi phục da</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
                         <p>Dimethinoe, còn được gọi là polydimethylsiloxan, là một polymer dựa trên silicon là một phần tử tổng hợp nhân...</p>
-                        <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chat12">Xem chi tiết</button>
                     </div>
-                </div>
-                <div class="jss57 row">
-                    <div class="col-lg-6 col-12">
-                        <div class="row">
-                            <div class="col-sm-3 col-12">
-                                <div class="jss67 jss62 jss65">
-                                    <span class="jss66">4</span>
+                    <div class="modal fade" id="chat12">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-12">
+                                            <div class="dinhdang_chat_doantoan dinhdang_chat_doantoan_reponsive dinhdang_chat_doantoan_goodcolor">
+                                                <span class="dinhdang_doantoan">4</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-12">
+                                            <h4 class="chat">Aminopropyl Ascorbyl Phosphate</h4>
+                                            <div>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chất tạo màng/giữ kết cấu sản phẩm</span>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chất dưỡng da</span>
+                                                <span class="chitiet_chat_tag1 chitiet_chat_tag2 badge badge-pill">Chất hồi phục da</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
                                 </div>
-                            </div>
-                            <div class="col-sm-9 col-12">
-                                <h4 class="jss58">Aminopropyl Ascorbyl Phosphate</h4>
-                                <div class="jss59">
-                                    <span class="jss71 jss72 badge badge-pill">Chất tạo màng/giữ kết cấu sản phẩm</span>
-                                    <span class="jss71 jss72 badge badge-pill">Chất dưỡng da</span>
-                                    <span class="jss71 jss72 badge badge-pill">Chất hồi phục da</span>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div>
+                                        Tên gọi khác:
+                                        <ul>
+                                            <li>Aminopropyl Ascorbyl Phosphate</li>
+                                        </ul>
+                                    </div>
+                                    <p>
+                                        Dimethicone, còn được gọi là polydimethylsiloxan, là một polymer dựa trên silicon là một phân tử tổng hợp nhân tạo
+                                        được tạo thành từ các đơn vị lặp lại được gọi là monome. Silicon là nguyên tố phổ biến thứ hai trong lớp vỏ trái đất sau oxy,
+                                        và silicon dioxide còn được gọi là cát, thường được tìm thấy trên các bãi biển và bờ biển.
+                                        Dimethicone cũng có thể được tìm thấy trong nhiều loại dầu ăn, thực phẩm chế biến và các món ăn nhanh như cốm gà và khoai tây chiên.
+                                    </p>
                                 </div>
+
+                                <!-- Modal footer -->
+                                <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div> -->
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12">
-                        <p>Dimethinoe, còn được gọi là polydimethylsiloxan, là một polymer dựa trên silicon là một phần tử tổng hợp nhân...</p>
-                        <button type="button" class="btn btn-primary">Xem chi tiết</button>
-                    </div>
                 </div>
+
                 <ul class="jss35 pagination">
                     <li class="page-item disabled">
                         <span class="page-link" disabled="">
@@ -528,20 +1003,21 @@
                 <div class="jss34">Kết quả 1-12 trên tổng số 2907</div>
             </div>
         </div>
+
         <div class="col-sm-4 col-md-3 offset-md-1">
-            <div class="jss47">
-                <h5 class="jss46"><b>Sản phẩm nổi bật</b></h5>
+            <div class="dinhdang_sanphamnoibat">
+                <h5 class="title_sanphamnoibat"><b>Sản phẩm nổi bật</b></h5>
                 <div>
-                    <a class="jss53" href="/">
-                        <div class="jss48 card">
-                            <div class="jss49 card-header">
-                                <img alt="Biossance Squalane oil 100%" class="jss76"
+                    <a class="sanpham_link" href="/">
+                        <div class="sanpham_dinhdang card">
+                            <div class="sanpham_hinhanh card-header">
+                                <img alt="Biossance Squalane oil 100%" class="sanpham_img"
                                      src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiIzZDBiMmVmYWIyZDk0MGViYTllYzM4NzY1NmIyYzhhYy5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9">
                             </div>
                             <div class="card-body">
-                                <div class="jss50 card-title h5">
+                                <div class="sanpham_tieude card-title h5">
                                     Biossance Squalane oil 100%<br>
-                                    <span class="jss51 badge badge-pill">
+                                    <span class="sanpham_tag badge badge-pill">
                                         DẦU DƯỠNG
                                     </span>
                                 </div>
@@ -549,16 +1025,16 @@
                             </div>
                         </div>
                     </a>
-                    <a class="jss53" href="/">
-                        <div class="jss48 card">
-                            <div class="jss49 card-header">
-                                <img alt="Differin gel (Adapalene 0.1%)" class="jss76"
+                    <a class="sanpham_link" href="/">
+                        <div class="sanpham_dinhdang card">
+                            <div class="sanpham_hinhanh card-header">
+                                <img alt="Differin gel (Adapalene 0.1%)" class="sanpham_img"
                                      src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/differin_gel_679f7308a4.jpg">
                             </div>
                             <div class="card-body">
-                                <div class="jss50 card-title h5">
+                                <div class="sanpham_tieude card-title h5">
                                     Differin gel (Adapalene 0.1%)<br>
-                                    <span class="jss51 badge badge-pill">
+                                    <span class="sanpham_tag badge badge-pill">
                                         RETINOID
                                     </span>
                                 </div>
@@ -566,16 +1042,16 @@
                             </div>
                         </div>
                     </a>
-                    <a class="jss53" href="/">
-                        <div class="jss48 card">
-                            <div class="jss49 card-header">
-                                <img alt="Treatment (2.5% Benzoyl Peroxide)" class="jss76"
+                    <a class="sanpham_link" href="/">
+                        <div class="sanpham_dinhdang card">
+                            <div class="sanpham_hinhanh card-header">
+                                <img alt="Treatment (2.5% Benzoyl Peroxide)" class="sanpham_img"
                                      src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiIyZDUxZmI2M2MzNTQ0ZmMxOTY5OThjOTAxNzUyOGI0YS5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9">
                             </div>
                             <div class="card-body">
-                                <div class="jss50 card-title h5">
+                                <div class="sanpham_tieude card-title h5">
                                     Treatment (2.5% Benzoyl)<br>
-                                    <span class="jss51 badge badge-pill">
+                                    <span class="sanpham_tag badge badge-pill">
                                         CHẤM MỤN
                                     </span>
                                 </div>
@@ -583,17 +1059,17 @@
                             </div>
                         </div>
                     </a>
-                    <a class="jss53" href="/">
-                        <div class="jss48 card">
-                            <div class="jss49 card-header">
-                                <img alt="Advanced Snail 96 Mucin" class="jss76"
+                    <a class="sanpham_link" href="/">
+                        <div class="sanpham_dinhdang card">
+                            <div class="sanpham_hinhanh card-header">
+                                <img alt="Advanced Snail 96 Mucin" class="sanpham_img"
                                      src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiJhY2M3N2E1Y2E4ZDA0YmRhYjg4MDM4N2Q0MTZhYjZlNi5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9">
 
                             </div>
                             <div class="card-body">
-                                <div class="jss50 card-title h5">
+                                <div class="sanpham_tieude card-title h5">
                                     Advanced Snail 96 Mucin<br>
-                                    <span class="jss51 badge badge-pill">
+                                    <span class="sanpham_tag badge badge-pill">
                                         ESSENCE
                                     </span>
                                 </div>
@@ -601,17 +1077,17 @@
                             </div>
                         </div>
                     </a>
-                    <a class="jss53" href="/">
-                        <div class="jss48 card">
-                            <div class="jss49 card-header">
-                                <img alt="Hydrating Facial Cleanser" class="jss76"
+                    <a class="sanpham_link" href="/">
+                        <div class="sanpham_dinhdang card">
+                            <div class="sanpham_hinhanh card-header">
+                                <img alt="Hydrating Facial Cleanser" class="sanpham_img"
                                      src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/Cera_Ve_Hydrating_Facial_Cleanser_Callmeduy_cb2acb2337.jpeg">
 
                             </div>
                             <div class="card-body">
-                                <div class="jss50 card-title h5">
+                                <div class="sanpham_tieude card-title h5">
                                     Hydrating Facial Cleanser<br>
-                                    <span class="jss51 badge badge-pill">
+                                    <span class="sanpham_tag badge badge-pill">
                                         SỮA RỬA MẶT
                                     </span>
                                 </div>
@@ -619,17 +1095,17 @@
                             </div>
                         </div>
                     </a>
-                    <a class="jss53" href="/">
-                        <div class="jss48 card">
-                            <div class="jss49 card-header">
-                                <img alt="SKIN LONG-WEAR FLUID 20" class="jss76"
+                    <a class="sanpham_link" href="/">
+                        <div class="sanpham_dinhdang card">
+                            <div class="sanpham_hinhanh card-header">
+                                <img alt="SKIN LONG-WEAR FLUID 20" class="sanpham_img"
                                      src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiJlYjlkZjhkNjE2NTQ0ZjgzODZhYTNkZDM4NjllYzU4Ni5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9">
 
                             </div>
                             <div class="card-body">
-                                <div class="jss50 card-title h5">
+                                <div class="sanpham_tieude card-title h5">
                                     Skin Long-Wear Fluid SPF 20<br>
-                                    <span class="jss51 badge badge-pill">
+                                    <span class="sanpham_tag badge badge-pill">
                                         KEM NỀN
                                     </span>
                                 </div>
@@ -641,66 +1117,5 @@
             </div>
         </div>
     </div>
-</div>
-
-<a href="#" id="goup-btn" class="jss77">
-    <img alt="go up" class=" ls-is-cached lazyloaded" data-="" src="https://callmeduy.com/assets/img/arrow_up.png" width="40px">
-</a>
-
-<footer class="footer">
-    <div class="container-fluid">
-        <div class="col-md-12">
-            <div class="row">
-                <div class="col-md-5 footer-header">
-
-                    <h3><strong>BeInBeauty</strong></h3>
-
-                    <div class="footer-content">
-                        <p>Tất cả các sản phẩm mới nhất giảm giá và ưu đãi có hạn - theo dõi hộp thư đến của bạn.</p>
-                        <form>
-                            <input type="email" placeholder="Nhập email của bạn vào đây" style="width: 80%;">
-                            <button type="submit" id="submit">
-                            </button>
-                        </form>
-                    </div>
-
-                </div>
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-5 footer-header">
-                    <h4 style="text-align: center;"><strong>Theo dõi chúng tôi</strong></h4>
-
-                    <div class="footer-content" style="text-align: center;">
-                        <i class="fab fa-facebook icon"><a href="#"></a></i>
-                        <i class="fab fa-twitter icon"><a href="#"></a></i>
-                        <i class="fab fa-instagram icon"><a href="#"></a></i>
-                        <i class="fab fa-youtube icon"><a href="#"></a></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-3 footer-content">
-                        <h5><a href="#">Về chúng tôi</a></h5>
-                    </div>
-                    <div class="col-md-3 footer-content">
-                        <h5><a href="#">Liên hệ</a></h5>
-                    </div>
-                    <div class="col-md-3 footer-content">
-                        <h5><a href="#">Mua & Đổi trả</a></h5>
-                    </div>
-                    <div class="col-md-3 footer-content">
-                        <h5><a href="#">Câu hỏi thường gặp</a></h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container" style="text-align: center;">
-            <h5>Copyright © 2020 UEH</h5>
-        </div>
-    </div>
-</footer>
 </div>
 

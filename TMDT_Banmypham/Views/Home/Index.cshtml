@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<TMDT_Banmypham.Models.DB.Sanpham>
+@{
     ViewData["Title"] = "Home Page";
 }
 <link href="~/css/style.css" rel="stylesheet" />
@@ -67,7 +68,7 @@
                         </div>
 
                     </div>
-                    
+
                     <div class="jss29 col-lg-4 col-12">
                         <a href="">
                             <img src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiJjZjdlZDJmMGZkNzM0MGM3YTU2NmMxMjFjMDNmNmRjNS5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9"
@@ -80,7 +81,7 @@
                         </div>
 
                     </div>
-                    
+
                     <div class="jss29 col-lg-4 col-12">
                         <a href="">
                             <img src="https://d1obul4e19ua6k.cloudfront.net/eyJrZXkiOiI2ZGJiZjk1Y2I2Yjg0YmZkYTViZGQzMThiOWI0MWMxNy5qcGciLCJidWNrZXQiOiJjYWxsbWVkdXktcHJvZHVjdGlvbi1zMyJ9"
@@ -93,236 +94,13 @@
                         </div>
 
                     </div>
-                    
+
                 </div>
                 <hr>
                 <div class="jss37">
                     <div class="jss36" style="width:100%;">
                         <h3>SẢN PHẨM NỔI BẬT NHẤT</h3>
                         <h6>Những sản phẩm được bình chọn nhiều nhất </h6>
-                    </div>
-                </div>
-                <div class=row>
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide slide">
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                                    <a class="jss63"
-                                       href="/san-pham/176">
-                                        <div class="jss58 card">
-                                            <div class="jss59 card-header">
-                                                <div>
-                                                    <div class="jss24 jss102">
-                                                        <div class="frame">
-                                                            <img alt="Hyaluronic Acid 2% + B5"
-                                                                 class=" jss103 "
-                                                                 src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/1_1_fc7ea536d62f4a068d63f6b377c78308_834cab7874.jpg">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="jss60 card-title h5">
-                                                    Hyaluronic Acid 2% +
-                                                    B5<br><span class="jss61 badge badge-pill">
-                                                        SERUM DƯỠNG
-                                                        ẨM
-                                                    </span>
-                                                </div>
-                                                <p class="card-text">250.000<sup>đ</sup></p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                                    <a class="jss63"
-                                       href="/san-pham/174">
-                                        <div class="jss58 card">
-                                            <div class="jss59 card-header">
-                                                <div>
-                                                    <div class="jss24 jss104">
-                                                        <div class="frame">
-                                                            <img alt="UV Elements Broad-Spectrum SPF 44"
-                                                                 class=" jss105 "
-                                                                 src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/61_MJT_Br_Sa_AL_SL_1296_00b847146e.jpg">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="jss60 card-title h5">
-                                                    UV Elements Broad-Spectrum
-                                                    ...<br><span class="jss61 badge badge-pill">
-                                                        KEM CHỐNG NẮNG
-                                                    </span>
-                                                </div>
-                                                <p class="card-text">650.000<sup>đ</sup></p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                                    <a class="jss63"
-                                       href="/san-pham/172">
-                                        <div class="jss58 card">
-                                            <div class="jss59 card-header">
-                                                <div>
-                                                    <div class="jss24 jss106">
-                                                        <div class="frame">
-                                                            <img alt="Klenzit C"
-                                                                 class=" jss107 "
-                                                                 src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/Klenzit_C_50f4f86896.jpg">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="jss60 card-title h5">
-                                                    Klenzit C<br><span class="jss61 badge badge-pill">CHẤM MỤN</span>
-                                                </div>
-                                                <p class="card-text">100.000<sup>đ</sup></p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                                    <a class="jss63"
-                                       href="/san-pham/177">
-                                        <div class="jss58 card">
-                                            <div class="jss59 card-header">
-                                                <div>
-                                                    <div class="jss24 jss100">
-                                                        <div class="frame">
-                                                            <img alt="Bakuchiol Moisturiser"
-                                                                 class=" jss101"
-                                                                 src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/inkink023_theinkeylist_bakuchiol_2_1560x1960_fnnoqjpg_31a6f0e6bd.jpg">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="jss60 card-title h5">
-                                                    Bakuchiol Moisturiser<br><span class="jss61 badge badge-pill">KEM DƯỠNG ẨM</span>
-                                                </div>
-                                                <p class="card-text">330.000<sup>đ</sup></p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                                    <a class="jss63"
-                                       href="/san-pham/186">
-                                        <div class="jss58 card">
-                                            <div class="jss59 card-header">
-                                                <div>
-                                                    <div class="jss24 jss96">
-                                                        <div class="frame">
-                                                            <img alt="DRMTLGY Broad Spectrum Spf 45"
-                                                                 class=" jss97"
-                                                                 src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/DRMTLGY_Broad_Spectrum_Spf_45_Callmeduy_3b3695344f.jpeg">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="jss60 card-title h5">
-                                                    DRMTLGY Broad Spectrum Spf
-                                                    45<br><span class="jss61 badge badge-pill">
-                                                        KEM CHỐNG NẮNG
-                                                    </span>
-                                                </div>
-                                                <p class="card-text">600.000<sup>đ</sup></p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                                    <a class="jss63"
-                                       href="/san-pham/187">
-                                        <div class="jss58 card">
-                                            <div class="jss59 card-header">
-                                                <div>
-                                                    <div class="jss24 jss94">
-                                                        <div class="frame">
-                                                            <img alt="Hydra B5 Source"
-                                                                 class=" jss95 "
-                                                                 src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/Ciracle_Hydra_B5_Source_Callmeduy_abbdccc458.png">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="jss60 card-title h5">
-                                                    Hydra B5 Source<br><span class="jss61 badge badge-pill">SERUM PHỤC HỒI</span>
-                                                </div>
-                                                <p class="card-text">400.000<sup>đ</sup></p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                                    <a class="jss63"
-                                       href="/san-pham/184">
-                                        <div class="jss58 card">
-                                            <div class="jss59 card-header">
-                                                <div>
-                                                    <div class="jss24 jss100">
-                                                        <div class="frame">
-                                                            <img alt="Positively Mineral Sensitive Skin Sunscreen Broad Spectrum Spf 50"
-                                                                 class=" jss101 "
-                                                                 src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/aveeno_positively_mineral_sensitive_skin_sunscreen_broad_spectrum_spf_50_ingredients_CMD_a6fd545774.jpeg">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="jss60 card-title h5">
-                                                    Positively Mineral
-                                                    Sensitiv...<br><span class="jss61 badge badge-pill">
-                                                        KEM
-                                                        CHỐNG NẮNG
-                                                    </span>
-                                                </div>
-                                                <p class="card-text">300.000<sup>đ</sup></p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                                    <a class="jss63"
-                                       href="/san-pham/184">
-                                        <div class="jss58 card">
-                                            <div class="jss59 card-header">
-                                                <div>
-                                                    <div class="jss24 jss100">
-                                                        <div class="frame">
-                                                            <img alt="Positively Mineral Sensitive Skin Sunscreen Broad Spectrum Spf 50"
-                                                                 class=" jss101 "
-                                                                 src="https://callmeduy-production-s3.s3.ap-southeast-1.amazonaws.com/aveeno_positively_mineral_sensitive_skin_sunscreen_broad_spectrum_spf_50_ingredients_CMD_a6fd545774.jpeg">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="jss60 card-title h5">
-                                                    Positively Mineral
-                                                    Sensitiv...<br><span class="jss61 badge badge-pill">
-                                                        KEM
-                                                        CHỐNG NẮNG
-                                                    </span>
-                                                </div>
-                                                <p class="card-text">300.000<sup>đ</sup></p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"></div>
-                            <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="false"></div>
-
-                        </div>
                     </div>
                 </div>
                 <div class="container">
@@ -333,6 +111,7 @@
                         </div>
                     </div>
                     <div class="row">
+                        @
                         <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                             <a class="jss63"
                                href="/san-pham/176">
@@ -350,7 +129,7 @@
                                     </div>
                                     <div class="card-body">
                                         <div class="jss60 card-title h5">
-                                            Hyaluronic Acid 2% + B5<br><span class="jss61 badge badge-pill">SERUM DƯỠNG ẨM</span>
+                                            <br><span class="jss61 badge badge-pill">SERUM DƯỠNG ẨM</span>
                                         </div>
                                         <p class="card-text">250.000<sup>đ</sup></p>
                                     </div>
@@ -547,7 +326,7 @@
 
                     <hr>
                 </div>
-                
+
                 <div>
                     <div>
                         <div class="jss44">

@@ -12,6 +12,7 @@ using TMDT_Banmypham.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using TMDT_Banmypham.Models.DB;
 
 namespace TMDT_Banmypham
 {
@@ -34,6 +35,8 @@ namespace TMDT_Banmypham
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddDbContext < MYPHAMContext > (options => options.UseSqlServer(Configuration.GetConnectionString("MYPHAMDatabase")));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TMDT_Banmypham.Models
+namespace TMDT_Banmypham.Models.DB
 {
     public partial class Loaisanpham
     {
