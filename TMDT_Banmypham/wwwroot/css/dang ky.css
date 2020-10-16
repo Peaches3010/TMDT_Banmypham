@@ -49,6 +49,7 @@ label {
 .textbox {
     border-radius: 5px;
     width: 70%;
+    overflow: hidden;
 }
 
 form .fas {
@@ -108,4 +109,23 @@ select {
     height: 100%;
     overflow: hidden;
     z-index: -1;
+}
+
+@media screen and (max-width: 992px) {
+    .button-create-account{
+        font-size: 1em !important;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .row {
+        margin-bottom: 10px !important;
+    }
+    #sign-up-form{
+        top:2%;
+    }
 }

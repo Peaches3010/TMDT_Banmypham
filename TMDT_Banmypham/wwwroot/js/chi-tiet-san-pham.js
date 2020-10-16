@@ -19,6 +19,7 @@ $(document).ready(function() {
         if (pos_body > 400) {
             $('nav').addClass('nav-change-color');
             $('.nav-link').addClass('menu');
+            $('.nav-item a').addClass('menu');
             $('.dropdown-menu').css("background-color", "#F79483");
             $("#show-log-in-form a").css("color", "white");
             $("#show-sign-up-form a").css("color", "white");
@@ -26,6 +27,7 @@ $(document).ready(function() {
         } else {
             $('nav').removeClass('nav-change-color');
             $('.nav-link').removeClass('menu');
+            $('.nav-item a').removeClass('menu');
             $('.dropdown-menu').css("background-color", "");
             $("#show-log-in-form a").css("color", "");
             $("#show-sign-up-form a").css("color", "");

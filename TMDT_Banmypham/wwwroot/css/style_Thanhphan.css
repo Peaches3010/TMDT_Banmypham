@@ -324,7 +324,6 @@ html {
     height: 240px;
     margin: auto;
     margin-bottom: 80px;
-    margin-top: 20px !important;
 }
 
 .hinhanh_header_img{
@@ -585,6 +584,7 @@ html {
     padding: 12px;
     margin-right: 8px;
     margin-bottom: 8px;
+
 }
 
 .chitiet_chat_tag2:hover {
@@ -641,6 +641,7 @@ html {
     .sanpham_img {
         width: 108px;
         height: 151.2px;
+        margin-left: 15%;
     }
 }
 
@@ -696,8 +697,8 @@ html {
     font-size: 30px;
     margin-left: 10px;
     cursor: pointer;
-    color: #73EFF7;
-}
+    color: #0A265A;
+    
 
 .footer-content h5 {
     font-size: 18px;
@@ -747,6 +748,10 @@ form #submit {
     visibility: visible;
     opacity: 1;
     transition: 0.7s;
+}
+
+span.chitiet_chat_tag1{
+    word-wrap:break-word;
 }
 @media screen and (max-width:768px) {
     #myBtn {

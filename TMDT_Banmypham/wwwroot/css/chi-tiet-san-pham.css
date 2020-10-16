@@ -51,9 +51,8 @@ ul li.active .nav-link {
 .nav-link {
     z-index: 1;
 }
-
-.dropdown {
-    padding: .5rem 1rem;
+a.nav-link {
+    margin-top:-7px;s
 }
 
 .dropdown-menu {
@@ -88,8 +87,11 @@ nav.nav-change-color {
     text-align: center;
     color: rgba(0,0,0,.5);
     font-weight: bolder;
+    margin-left:30px;
 }
-
+li.nav-item {
+    margin-top: 10px;
+}
 .navbar-toggler .icon-bar {
     background-color: white !important;
 }
@@ -274,7 +276,7 @@ h1 {
 }
 
 .footer {
-    background-color: #D9D6EA;
+    background-color: #B2BACA;
     clear: both;
     width: 100%;
 }
@@ -293,7 +295,7 @@ h1 {
     font-size: 30px;
     margin-left: 10px;
     cursor: pointer;
-    color: #73EFF7;
+    color: #0A265A;
 }
 
 .footer-content h5 {
@@ -380,9 +382,7 @@ form #submit {
         text-align: right !important;
         width: 100%;
     }
-    .dropdown {
-        padding: .5rem 0rem;
-    }
+
     .dropdown-toggle {
         text-align: right !important;
         width: 100%;
@@ -412,6 +412,10 @@ form #submit {
     }
     .nav-item {
         margin-bottom: 5px;
+    }
+
+    a.nav-link{
+        margin-left: 0;
     }
     .container {
         width: 90%;
@@ -461,7 +465,7 @@ form #submit {
         text-align: center !important;
     }
     h1 {
-        font-size: 44px !important;
+        font-size: 44px ;
     }
     #gach-ngang-1 {
         margin-top: 50px !important;
@@ -485,6 +489,10 @@ form #submit {
     .navbar-nav li {
         text-align: left !important;
         width: 100%;
+    }
+    a.nav-link{
+        margin-left: 30px;
+
     }
     .account {
         margin-left: 0% !important;
@@ -520,6 +528,10 @@ form #submit {
     .back-to-top {
         width: 40px;
         height: 40px;
+    }
+    form #submit{
+        height:33px;
+        width: 33px;
     }
 }
 

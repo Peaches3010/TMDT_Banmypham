@@ -101,6 +101,10 @@ html {
   width: 50%;
   border: 1px solid #2EADED;
 }
+
+.form-control{
+    margin-left: 0;
+}
 @media (min-width:576px) {
   .jss1 h6 {
     font-size: 1.25rem;
@@ -324,7 +328,7 @@ html {
     height: 240px;
     margin: auto;
     margin-bottom: 80px;
-    margin-top: 20px !important;
+
 }
 .jss14{
     width: 100%;
@@ -514,7 +518,7 @@ html {
     font-size: 30px;
     margin-left: 10px;
     cursor: pointer;
-    color: #73EFF7;
+    color: #0A265A;
 }
 
 .footer-content h5 {

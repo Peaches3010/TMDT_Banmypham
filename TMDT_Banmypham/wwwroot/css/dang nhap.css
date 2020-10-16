@@ -119,3 +119,27 @@ form h1 {
     overflow: hidden;
     z-index: -1;
 }
+
+.fa, .fab, .fad, .fal, .far, .fas{
+    margin-right:5px;
+}
+
+@media only screen and (max-width: 992px) {
+    .button-log-in, .button-log-in-fb, .button-log-in-gg
+    {
+        font-size: 1em !important;
+        word-wrap:break-word;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px)
+{
+    #login-form{
+        width: 150%;
+        left: -20%;
+    }
+}
